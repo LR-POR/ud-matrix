@@ -1,5 +1,4 @@
 
-
 * studies on meaning representations
 
 step 1
@@ -54,10 +53,11 @@ questions?
   8. chain of verbs? LV?
   9. implicatives?!
 
-- tools
+* tools
 
-http://sdp.delph-in.net/index.php?page=1&language=en
-
+- http://sdp.delph-in.net/index.php?page=1&language=en
+- https://github.com/cfmrp/mtool
+- http://mrp.nlpl.eu/2020/index.php
 
 * references
 
