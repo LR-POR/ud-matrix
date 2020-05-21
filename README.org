@@ -1,0 +1,46 @@
+
+
+* studies on meaning representations
+
+step 1
+
+Sentences from http://moin.delph-in.net/MatrixMrsTestSuitePt (see also
+https://w3.ual.es/~nperdu/hpsuite.htm where the sentences are grouped
+by syntatic constructions)
+
+goal: not to compare, look for dimensions...
+
+questions?
+
+1. what representations?
+
+  1. AMR
+  2. MRS
+  3. GKR
+  4. ESSP (views produced by rules on top of UD+SRL)
+
+2. what sample data?
+
+- testset in the ActionAPI source code
+- https://tatoeba.org
+
+- what aspects?
+
+  1. predicate-argument-structure
+  2. temporal aspect (inflection = morphology/tense/aspect)
+  3. polarity (negation)
+  4. propositional struture: conditional
+  5. modality (ways of an action)
+  6. propositional struture: conjunction and dijustion
+  7. question vs afirmative
+  8. chain of verbs? LV?
+  9. implicatives?!
+
+- tools
+
+http://sdp.delph-in.net/index.php?page=1&language=en
+
+* references
+
+- workshop last year
+
