@@ -1,0 +1,1054 @@
+# newdoc id = matrix-pt.sent
+# newpar
+# sent_id = 1
+# text = Choveu.
+1	Choveu	Chover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = O Atlas ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = A janela abriu-se.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	janela	janela	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3-4	abriu-se	_	_	_	_	_	_	_	SpaceAfter=No
+3	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = O Atlas perseguiu o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = O Atlas passou o cigarro ao Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cigarro	cigarro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = O Atlas passou ao Bobi o cigarro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	iobj	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cigarro	cigarro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = O Atlas apostou um cigarro com o Bobi em como choveu.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	apostou	apostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cigarro	cigarro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	como	como	ADV	_	_	11	advmod	_	_
+11	choveu	choveu	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = O Atlas sabia que choveu.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sabia	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	choveu	chover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = O Atlas tinha a intenção de ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	SCONJ	_	_	7	mark	_	_
+7	ladrar	ladrar	VERB	_	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = O Atlas queria que o Bobi ladrasse.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ladrasse	ladrar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Todos os gatos ladraram.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	ladraram	ladrar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Todos os gatos perseguiram algum cão.
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	perseguiram	perseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	algum	algum	DET	_	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = O meu gato ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	det	_	_
+3	gato	gato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Ladrou.
+1	Ladrou	Ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = O gato perseguiu-o.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3-4	perseguiu-o	_	_	_	_	_	_	_	SpaceAfter=No
+3	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = O gato perseguiu-se.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3-4	perseguiu-se	_	_	_	_	_	_	_	SpaceAfter=No
+3	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = O gato perseguiu um.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	um	um	NUM	_	NumType=Card	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = O meu ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	meu	meu	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Isso abriu-se.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2-3	abriu-se	_	_	_	_	_	_	_	SpaceAfter=No
+2	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Os gatos ladram.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Chegou tabaco.
+1	Chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	tabaco	tabaco	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Alguns ladram.
+1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Alguns dos gatos ladram.
+1	Alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Nenhum gato ladrou.
+1	Nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = O cão ladrou?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Que cão ladrou?
+1	Que	que	DET	_	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Ladrou o cão de quem?
+1	Ladrou	Ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cão	cão	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	quem	quem	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	3	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Persegue o Bobi!
+1	Persegue	Persegue	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = O Atlas perguntou-se que cão ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3-4	perguntou-se	_	_	_	_	_	_	_	_
+3	perguntou	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	3	expl	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	cão	cão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = O Atlas perguntou-se se o Bobi ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3-4	perguntou-se	_	_	_	_	_	_	_	_
+3	perguntou	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	se	se	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = O cão que o Bobi perseguiu ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	obj	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = O cão a perseguir está a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	a	a	SCONJ	_	_	4	mark	_	_
+4	perseguir	perseguir	VERB	_	VerbForm=Inf	2	acl	_	_
+5	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	ladrar	ladrar	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = O cão foi perseguido pelo Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	perseguido	perseguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = O cão perseguido pelo Bobi ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	perseguido	perseguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = O cão está a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	ladrar	ladrar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = O cão ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = O cão tem estado a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	estado	estar	VERB	_	VerbForm=Part	0	root	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	ladrar	ladrar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = O cão tinha estado a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	estado	estar	VERB	_	VerbForm=Part	0	root	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	ladrar	ladrar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = O cão ladrará.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrará	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = O cão vai ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ladrar	ladrar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 41
+# text = O cão conseguiu ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ladrar	ladrar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 42
+# text = O cão não conseguiu ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+4	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ladrar	ladrar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 43
+# text = O cão velho ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	velho	velho	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 44
+# text = O cão ladrou baixinho.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	baixinho	baixinho	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = O cão provavelmente ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	provavelmente	provavelmente	ADV	_	_	4	advmod	_	_
+4	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 46
+# text = O cão ladrou no jardim.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 47
+# text = O cão agora ladra.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	agora	agora	ADV	_	_	4	advmod	_	_
+4	ladra	ladro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 48
+# text = O cão do jardim ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 49
+# text = O cão do jardim do tabaco ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tabaco	tabaco	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 50
+# text = O gato é velho.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	velho	velho	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 51
+# text = O gato está no jardim.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = O cão que está a ladrar perseguiu o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
+4	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	ladrar	ladrar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 53
+# text = Os cães perseguidos ladram.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cães	cão	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	perseguidos	perseguir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	acl	_	_
+4	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 54
+# text = Perseguir o gato está batido.
+1	Perseguir	Perseguir	VERB	_	VerbForm=Inf	5	csubj	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gato	gato	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	batido	batido	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 55
+# text = O gato perseguir o Bobi está batido.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	perseguir	perseguir	VERB	_	VerbForm=Inf	2	acl	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	batido	batido	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 56
+# text = Os cães perseguem tudo o que ladra.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cães	cão	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	perseguem	perseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tudo	tudo	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	3	obj	_	_
+5	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+7	ladra	ladra	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 57
+# text = O cão ladrou todos os dias.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	fixed	_	_
+6	dias	dias	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 58
+# text = Quando é que o cão ladrou?
+1	Quando	quando	ADV	_	_	6	advmod	_	_
+2	é	ser	AUX	_	_	6	discourse	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cão	cão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 59
+# text = Três dos cães ladram.
+1	Três	três	NUM	_	NumType=Card	5	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cães	cão	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+5	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 60
+# text = Três ladram.
+1	Três	três	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	ladram	ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 61
+# text = O cão do Bobi ladra.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ladra	ladro	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 62
+# text = O do Bobi ladra.
+1	O	o	DET	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	ladra	ladro	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 63
+# text = Ladram vinte e três cães.
+1	Ladram	Ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	vinte	vinte	NUM	_	NumType=Card	5	nummod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	três	três	NUM	_	NumType=Card	2	conj	_	_
+5	cães	cão	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 64
+# text = Ladram duzentos e vinte cães.
+1	Ladram	Ladr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	duzentos	duzentos	NUM	_	NumType=Card	1	obj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	vinte	vinte	NUM	_	NumType=Card	5	nummod	_	_
+5	cães	cão	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 65
+# text = O Atlas chegou de carro.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	carro	carro	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 66
+# text = O Atlas não parou de ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+4	parou	parar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	de	de	SCONJ	_	_	6	mark	_	_
+6	ladrar	ladrar	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 67
+# text = O Bobi enfiou o gato à força.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	enfiou	enfiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	força	força	NOUN	_	Gender=Fem|Number=Sing	3	iobj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 68
+# text = O Bobi enfiou o gato à força.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	enfiou	enfiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	força	força	NOUN	_	Gender=Fem|Number=Sing	3	iobj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 69
+# text = A foto do Atlas chegou.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 70
+# text = O Atlas limpou a mesa completamente.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	limpou	limpar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mesa	mesa	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	completamente	completamente	ADV	_	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 71
+# text = O Atlas pôs o Bobi no jardim.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	pôs	pôr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 72
+# text = O cão vai ladrar se o Bobi chegar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ladrar	ladrar	VERB	_	VerbForm=Inf	0	root	_	_
+5	se	se	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	chegar	chegar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 73
+# text = O Atlas e o Bobi chegaram.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 74
+# text = O Atlas, o Bobi e o cão chegaram.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cão	cão	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+9	chegaram	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 75
+# text = O cão chegou e ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 76
+# text = O cão chegou, e o Bobi ladrou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 77
+# text = O cão ladrou, não ladrou?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+6	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 78
+# text = É óbvio que o cão ladrou.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	óbvio	óbvio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cão	cão	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	csubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 79
+# text = O Atlas prometeu ao Bobi ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	prometeu	prometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	ladrar	ladrar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	6	acl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 80
+# text = O Atlas parece ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ladrar	ladrar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 81
+# text = O Atlas acredita que o Bobi está a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	acredita	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	9	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	ladrar	ladrar	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 82
+# text = O Bobi ter ladrado incomodou o Atlas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	4	aux	_	_
+4	ladrado	ladrar	VERB	_	VerbForm=Part	0	root	_	_
+5	incomodou	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	xcomp	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Atlas	Atlas	PROPN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 83
+# text = O Atlas levou dez minutos a chegar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dez	dez	NUM	_	NumType=Card	5	nummod	_	_
+5	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	chegar	chegar	VERB	_	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 84
+# text = O Atlas deixou o ladrar para o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ladrar	ladrar	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 85
+# text = O Atlas parece velho ao Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	velho	velho	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+5-6	ao	_	_	_	_	_	_	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 86
+# text = O Bobi considera o Atlas velho.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Atlas	Atlas	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	velho	velho	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 87
+# text = O Atlas gostou da ideia de que o Bobi conseguia ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	gostou	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	de	de	SCONJ	_	_	11	mark	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	conseguia	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl	_	_
+12	ladrar	ladrar	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 88
+# text = O Atlas ladrou das dez às três.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	das	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	dez	dez	NUM	_	NumType=Card	3	obl	_	_
+7-8	às	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	três	três	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 89
+# text = O Atlas era muito velho.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	velho	velho	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 90
+# text = Quase todos os cães ladraram.
+1	Quase	quase	ADV	_	_	5	advmod	_	_
+2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cães	cão	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	ladraram	ladrar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 91
+# text = O Atlas ladrou muito baixinho.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ladrou	ladrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	baixinho	baixinho	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 92
+# text = O Bobi perseguir gatos incomodou o Atlas.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	perseguir	perseguir	VERB	_	Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
+4	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	incomodou	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Atlas	Atlas	PROPN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 93
+# text = O Atlas ter perseguido gatos incomodou o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	4	aux	_	_
+4	perseguido	perseguir	VERB	_	VerbForm=Part	0	root	_	_
+5	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	incomodou	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 94
+# text = O três de junho chegou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	três	três	NUM	_	NumType=Card	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	junho	junho	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 95
+# text = O Atlas chegou às três e vinte.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	às	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	três	três	NUM	_	NumType=Card	3	obj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	vinte	vinte	NUM	_	NumType=Card	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 96
+# text = O Bobi chegou na terça-feira de manhã.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 97
+# text = Os gatos arranjaram uma forma de ladrar.
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	arranjaram	arranjar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forma	forma	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	SCONJ	_	_	7	mark	_	_
+7	ladrar	ladrar	VERB	_	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 98
+# text = O cão mais feliz perseguiu o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	feliz	feliz	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 99
+# text = Havia gatos no jardim.
+1	Havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	gatos	gato	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 100
+# text = Aquele cão perseguiu o Bobi.
+1	Aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 101
+# text = Alguém perseguiu o Atlas.
+1	Alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	perseguiu	perseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Atlas	Atlas	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 102
+# text = Quão feliz estava o Atlas?
+1	Quão	quão	ADV	_	_	2	advmod	_	_
+2	feliz	feliz	ADJ	_	Gender=Unsp|Number=Sing	0	root	_	_
+3	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 103
+# text = O número cinco incomoda o Bobi.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	número	número	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	cinco	cinco	NUM	_	NumType=Card	2	nummod	_	_
+4	incomoda	incomodar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 104
+# text = O Atlas conseguiu.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Atlas	atlas	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 105
+# text = O Bobi tentou.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bobi	Bobi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 106
+# text = Não ladres!
+1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
+2	ladres	ladre	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 107
+# text = O cão chegou a ladrar.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	ladrar	ladrar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n\n
+

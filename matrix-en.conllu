@@ -1,0 +1,917 @@
+# newdoc id = matrix-en.sent
+# newpar
+# sent_id = 1
+# text = It rained.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	rained	raine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Abrams barked.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = The window opened.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	window	window	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Abrams chased Browne.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
+2	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Abrams handed Browne the cigarette.
+1	Abrams	Abrams	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	handed	hand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	iobj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Abrams handed the cigarette to Browne.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	handed	hand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Browne	Browne	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Abrams bet Browne a cigarette that it rained.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
+2	bet	bet	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	iobj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	rained	rain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Abrams knew that it rained.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	rained	rain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Abrams intended to bark.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	bark	bark	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Abrams intended Browne to bark.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
+2	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	bark	bark	VERB	VB	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Every cat barked.
+1	Every	every	DET	DT	_	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Every cat chased some dog.
+1	Every	every	DET	DT	_	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	dog	dog	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = My cat barked.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = It barked.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = The cat chased it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = The cat chased itself.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = The cat chased one.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Mine barked.
+1	Mine	mine	PRON	PRP	_	2	nsubj	_	_
+2	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = That opened.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Cats bark.
+1	Cats	cat	NOUN	NNS	Number=Plur	2	compound	_	_
+2	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Tobacco arrived.
+1	Tobacco	Tobacco	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Some bark.
+1	Some	some	DET	DT	_	2	det	_	_
+2	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Some of the cats bark.
+1	Some	some	DET	DT	_	0	root	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	cats	cat	NOUN	NNS	Number=Plur	5	compound	_	_
+5	bark	bark	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = No cat barked.
+1	No	no	DET	DT	_	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Did the dog bark?
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	compound	_	_
+4	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Which dog barked?
+1	Which	which	DET	WDT	PronType=Int	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Whose dog barked?
+1	Whose	whose	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Chase Browne!
+1	Chase	chase	PROPN	NNP	Number=Sing	0	root	_	_
+2	Browne	Browne	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Abrams wondered which dog barked.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	wondered	wonder	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	which	which	DET	WDT	PronType=Int	4	det	_	_
+4	dog	dog	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Abrams wondered whether Browne barked.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	wondered	wonder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	whether	whether	SCONJ	IN	_	5	mark	_	_
+4	Browne	Browne	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = The dog that Browne chased barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	0	root	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obj	_	_
+4	Browne	Browne	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	barked	bark	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = The dog to chase is barking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	chase	chase	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = The dog was chased by Browne.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	Browne	Browne	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = The dog chased by Browne barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	by	by	ADP	IN	_	5	case	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	3	obl	_	_
+6	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = The dog is barking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = The dog has barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	barked	bark	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = The dog has been barking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = The dog had been barking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = The dog will bark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	bark	bark	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = The dog is going to bark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	bark	bark	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 41
+# text = The dog could bark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	bark	bark	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 42
+# text = The dog couldn't bark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	bark	bark	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 43
+# text = The old dog barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 44
+# text = The dog barked softly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	softly	softly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = The dog probably barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	probably	probably	ADV	RB	_	4	advmod	_	_
+4	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 46
+# text = The dog barked in the garden.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 47
+# text = The dog barks now.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barks	bark	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 48
+# text = The garden dog barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	garden	garden	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 49
+# text = The tobacco garden dog barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	tobacco	tobacco	NOUN	NN	Number=Sing	4	compound	_	_
+3	garden	garden	NOUN	NN	Number=Sing	4	compound	_	_
+4	dog	dog	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 50
+# text = The cat is old.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 51
+# text = The cat is in the garden.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cat	cat	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = The barking dog chased Browne.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	barking	barking	NOUN	NN	Number=Sing	3	compound	_	_
+3	dog	dog	NOUN	NN	Number=Sing	0	root	_	_
+4	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 53
+# text = Chased dogs bark.
+1	Chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+2	dogs	dog	NOUN	NNS	Number=Plur	1	obj	_	_
+3	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 54
+# text = Chasing the cat is old.
+1	Chasing	chase	VERB	VBG	VerbForm=Ger	5	csubj	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	cat	cat	NOUN	NN	Number=Sing	1	obj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 55
+# text = That the cat chases Browne is old.
+1	That	that	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	cat	cat	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	chases	chase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	old	old	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 56
+# text = Dogs chase whatever barks.
+1	Dogs	dog	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	chase	chase	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	whatever	whatever	DET	WDT	PronType=Int	4	det	_	_
+4	barks	bark	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 57
+# text = The dog barked every day.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	day	day	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 58
+# text = When did the dog bark?
+1	When	when	ADV	WRB	PronType=Int	2	mark	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	dog	dog	NOUN	NN	Number=Sing	5	compound	_	_
+5	bark	bark	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 59
+# text = Three of the dogs bark.
+1	Three	three	NUM	CD	NumType=Card	0	root	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	dogs	dog	NOUN	NNS	Number=Plur	5	compound	_	_
+5	bark	bark	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 60
+# text = Three bark.
+1	Three	three	NUM	CD	NumType=Card	2	nummod	_	_
+2	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 61
+# text = Browne's dog barks.
+1	Browne	Browne	PROPN	NNP	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	compound	_	_
+4	barks	bark	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 62
+# text = Browne's barks.
+1	Browne	Browne	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	_
+3	barks	bark	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 63
+# text = Twenty three dogs bark.
+1	Twenty	twenty	NUM	CD	NumType=Card	2	compound	_	_
+2	three	three	NUM	CD	NumType=Card	3	nummod	_	_
+3	dogs	dog	NOUN	NNS	Number=Plur	4	compound	_	_
+4	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 64
+# text = Two hundred twenty dogs bark.
+1	Two	two	NUM	CD	NumType=Card	4	nummod	_	_
+2	hundred	hundred	NUM	CD	NumType=Card	4	nummod	_	_
+3	twenty	twenty	NUM	CD	NumType=Card	4	nummod	_	_
+4	dogs	dog	NOUN	NNS	Number=Plur	5	nmod:npmod	_	_
+5	bark	bark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 65
+# text = Abrams arrived by car.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
+2	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	by	by	ADP	IN	_	4	case	_	_
+4	car	car	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 66
+# text = Abrams kept barking.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	3	obl:npmod	_	_
+2	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	barking	barking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 67
+# text = Browne squeezed the cat in.
+1	Browne	Browne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	squeezed	squeeze	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	cat	cat	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	2	compound:prt	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 68
+# text = Browne squeezed in the cat.
+1	Browne	Browne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	squeezed	squeeze	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cat	cat	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 69
+# text = The picture of Abrams arrived.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	picture	picture	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	nmod	_	_
+5	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 70
+# text = Abrams wiped the table clean.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	wiped	wip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	table	table	NOUN	NN	Number=Sing	2	obj	_	_
+5	clean	clean	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 71
+# text = Abrams put Browne in the garden.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 72
+# text = The dog will bark if Browne arrives.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	bark	bark	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	Browne	Browne	NOUN	NN	Number=Sing	7	compound	_	_
+7	arrives	arrive	NOUN	NNS	Number=Plur	4	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 73
+# text = Abrams and Browne arrived.
+1	Abrams	Abrams	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	1	conj	_	_
+4	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 74
+# text = Abrams, Browne, and the dog arrived.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	dog	dog	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 75
+# text = The dog arrived and barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 76
+# text = The dog arrived and Browne barked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 77
+# text = The dog barked, didn't it?
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 78
+# text = It is obvious that the dog barked.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	obvious	obvious	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	dog	dog	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	csubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 79
+# text = Abrams promised Browne to bark.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
+2	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	bark	bark	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 80
+# text = Abrams seems to bark.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	bark	bark	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 81
+# text = Abrams believes Browne to be barking.
+1	Abrams	Abrams	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	6	nsubj	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 82
+# text = It bothered Abrams that Browne barked.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bothered	bother	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	obj	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 83
+# text = It took Abrams ten minutes to arrive.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Abrams	Abrams	ADV	RB	_	4	advmod	_	_
+4	ten	ten	NUM	CD	NumType=Card	5	nummod	_	_
+5	minutes	minute	NOUN	NNS	Number=Plur	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	arrive	arrive	VERB	VB	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 84
+# text = Abrams left it to Browne to bark.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	2	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	bark	bark	VERB	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 85
+# text = Abrams strikes Browne as old.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	strikes	strike	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	0	root	_	_
+4	as	as	ADP	IN	_	5	case	_	_
+5	old	old	ADJ	JJ	Degree=Pos	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 86
+# text = Browne considers Abrams old.
+1	Browne	Browne	PRON	PRP	_	2	nsubj	_	_
+2	considers	consider	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Abrams	Abram	NOUN	NNS	Number=Plur	2	obj	_	_
+4	old	old	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 87
+# text = Abrams liked the idea that Browne could bark.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	Browne	Browne	PRON	PRP	_	8	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	bark	bark	VERB	VB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 88
+# text = Abrams barked from ten to three.
+1	Abrams	Abrams	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	ten	ten	NUM	CD	NumType=Card	2	obl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	three	three	NUM	CD	NumType=Card	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 89
+# text = Abrams was very old.
+1	Abrams	Abrams	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 90
+# text = Nearly every dog barked.
+1	Nearly	Nearly	ADV	RB	_	3	advmod	_	_
+2	every	every	DET	DT	_	3	det	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 91
+# text = Abrams barked very softly.
+1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	barked	bark	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	softly	softly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 92
+# text = Browne's chasing of cats bothered Abrams.
+1	Browne	Browne	PRON	PRP	_	3	nsubj	_	SpaceAfter=No
+2	's	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chasing	chasing	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	cats	cat	NOUN	NNS	Number=Plur	7	nmod	_	_
+6	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	Abrams	Abrams	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 93
+# text = It bothered Browne that Abrams chased cats.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bothered	bother	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	Abrams	Abrams	PROPN	NNPS	Number=Plur	6	nsubj	_	_
+6	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	cats	cat	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 94
+# text = June third arrived.
+1	June	June	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 95
+# text = Abrams arrived at three twenty.
+1	Abrams	Abram	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	twenty	twenty	NUM	CD	NumType=Card	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 96
+# text = Browne arrived on Tuesday morning.
+1	Browne	Browne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	Tuesday	Tuesday	PROPN	NNP	Number=Sing	5	compound	_	_
+5	morning	morning	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 97
+# text = The cats found a way to bark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cats	cat	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	way	way	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	bark	bark	VERB	VB	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 98
+# text = The happier dog chased Browne.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	happier	happier	ADJ	JJR	Degree=Cmp	3	amod	_	_
+3	dog	dog	NOUN	NN	Number=Sing	0	root	_	_
+4	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 99
+# text = There were cats in the garden.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	cats	cat	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 100
+# text = That dog chased Browne.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Browne	Browne	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 101
+# text = Somebody chased Abrams.
+1	Somebody	somebody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 102
+# text = How happy was Abrams?
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 103
+# text = The number five bothers Browne.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	number	number	NOUN	NN	Number=Sing	4	compound	_	_
+3	five	five	NUM	CD	NumType=Card	4	nummod	_	_
+4	bothers	bother	NOUN	NNS	Number=Plur	0	root	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 104
+# text = Abrams could.
+1	Abrams	Abram	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 105
+# text = Browne tried to.
+1	Browne	Browne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 106
+# text = Don't bark!
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	_	3	advmod	_	_
+3	bark	bark	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 107
+# text = The dog arrived barking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	barking	barking	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
