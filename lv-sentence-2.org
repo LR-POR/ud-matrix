@@ -3,6 +3,35 @@ From https://en.wikipedia.org/wiki/Light_verb
 
 Susan is getting much support from her family.
 
+* ERG
+
+From http://erg.delph-in.net/logon, both analysis of 
+
+- from ARG1 support
+- from ARG1 get_v
+
+Somehow related to the LV reading or not?!
+
+#+BEGIN_EXAMPLE
+SENT: Susan is getting much support from her family.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: + PERF: - ]
+RELS: < [ proper_q<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named<0:5> LBL: h7 CARG: "Susan" ARG0: x3 ]
+ [ _get_v_1<9:16> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q<17:29> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ much-many_a<17:21> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ _support_n_of<22:29> LBL: h13 ARG0: x9 ARG1: i15 ]
+ [ _from_p_state<30:34> LBL: h1 ARG0: e16 ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q<35:38> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ poss<35:38> LBL: h21 ARG0: e22  ARG1: x17 ARG2: x23  ]
+ [ pronoun_q<35:38> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ pron<35:38> LBL: h27 ARG0: x23 ]
+ [ _family_n_of<39:46> LBL: h21 ARG0: x17 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h25 qeq h27 >
+ICONS: < > ]
+#+END_EXAMPLE
+
 * EN
 
 #+BEGIN_EXAMPLE
