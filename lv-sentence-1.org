@@ -64,7 +64,7 @@ state.01 http://verbs.colorado.edu/propbank/framesets-english-aliases/state.html
 hide.01 http://verbs.colorado.edu/propbank/framesets-english-aliases/hide.html
   ARG0 = Iranians
   ARGM-TMP = frequently
-  ARGM-TMP = then ?
+  ARGM-TMP = then 
   ARGM-LOC = [behind lack of proof] ?
 
 lack.01 http://verbs.colorado.edu/propbank/framesets-english-aliases/lack.html

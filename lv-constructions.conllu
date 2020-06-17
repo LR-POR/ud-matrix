@@ -1,3 +1,24 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0011
+# text = Launching this way will hopefully avoid future disasters, giving more support towards NASA revisiting the stars.
+1	Launching	launch	VERB	VBG	VerbForm=Ger	6	csubj	6:csubj	_	launch.01	V	_	ARG0	_	ARG0	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	_	_	_	_	_	_	_	_
+3	way	way	NOUN	NN	Number=Sing	1	obj	1:obj	_	way.01	ARGM-MNR	V	_	_	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_	_	_	_	ARGM-MOD	_	_	_
+5	hopefully	hopefully	ADV	RB	_	6	advmod	6:advmod	_	_	_	_	ARGM-ADV	_	_	_
+6	avoid	avoid	VERB	VB	VerbForm=Inf	0	root	0:root	_	avoid.01	_	_	V	_	_	_
+7	future	future	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	_	_	_	_	_	_
+8	disasters	disaster	NOUN	NNS	Number=Plur	6	obj	6:obj	SpaceAfter=No	_	_	_	ARG1	_	_	_
+9	,	,	PUNCT	,	_	6	punct	6:punct	_	_	_	_	_	_	_	_
+10	giving	give	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	_	give.LV	_	_	ARGM-ADV	V	ARGM-LVB	_
+11	more	more	ADJ	JJR	Degree=Cmp	12	amod	12:amod	_	_	_	_	_	_	ARGM-EXT	_
+12	support	support	NOUN	NN	Number=Sing	10	obj	10:obj	_	support.01	_	_	_	ARGM-PRR	V	_
+13	towards	towards	SCONJ	IN	_	15	mark	15:mark	_	_	_	_	_	_	_	_
+14	NASA	NASA	PROPN	NNP	Number=Sing	15	nsubj	15:nsubj	_	_	_	_	_	_	_	ARG0
+15	revisiting	revisit	VERB	VBG	VerbForm=Ger	12	acl	12:acl:towards	_	revisit.01	_	_	_	_	ARG1	V
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_	_	_	_	_	_	_	_
+17	stars	star	NOUN	NNS	Number=Plur	15	obj	15:obj	SpaceAfter=No	_	_	_	_	_	_	ARG1
+18	.	.	PUNCT	.	_	6	punct	6:punct	_	_	_	_	_	_	_	_
+
 # sent_id = weblog-blogspot.com_floppingaces_20041126180010_ENG_20041126_180010-0004
 # text = He makes some good observations on a few of the pic's.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	_	ARG0
