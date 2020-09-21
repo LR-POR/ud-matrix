@@ -1,0 +1,31 @@
+
+http://shasta.sl.cloud9.ibm.com:9002/?input=It+rained.#
+
+SENT: It rained.
+
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _rain_v_1<3:9> LBL: h1 ARG0: e2 ] >
+HCONS: < h0 qeq h1 >
+ICONS: < > ]
+
+
+action = e2
+ mood = indicative
+ tense = past
+ span = 3:9
+ progressive = no
+ perfect = no
+
+role
+ it is not a semantic entity
+
+
+NounPhrase
+
+from the derivation see tree-1.svg
+
+
+ 
+
+
