@@ -63,3 +63,8 @@ questions?
 
 - workshop last year
 
+* links
+
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/ (actionAPI3 stable)
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/ (actionAPI3 last release)
+
