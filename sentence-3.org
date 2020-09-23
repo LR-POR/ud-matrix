@@ -1,5 +1,6 @@
 
-http://shasta.sl.cloud9.ibm.com:9002/?input=The+old+dog+barked.#
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+old+dog+barked.#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+old+dog+barked.#
 
 SENT: The old dog barked.
 
@@ -20,15 +21,10 @@ HCONS: < h0 qeq h1 h5 qeq h7 >
 	    (116 period_pct 0.000000 4 5 ("." 94 ...))))
 
 Action
- base form: bark
- mood: indicative
- progressive: no
- perfect: no
- tense: past
+ missed barked
 
 Role
- arg1 = x3 = _dog_n_1(x3), _old_a_1(e8, x3) 
-  h5 = h7 = lbl of dog(x3) and old(e8, x3)
+ missed 
 
 NounPhrase
  sp-hd_n_c

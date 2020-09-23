@@ -1,5 +1,6 @@
 
-http://shasta.sl.cloud9.ibm.com:9002/?input=It+rained.#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=It+rained.#
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=It+rained.#
 
 SENT: It rained.
 

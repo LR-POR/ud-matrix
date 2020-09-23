@@ -1,5 +1,5 @@
 
-http://shasta.sl.cloud9.ibm.com:9002/?input=The+green+house+bigger+than+the+yellow+one+was+sold.#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+green+house+bigger+than+the+yellow+one+was+sold.#
 
 SENT: The green house bigger than the yellow one was sold.
 
@@ -47,7 +47,7 @@ Action
  sold
 
 Role
- arg2: x3
+ arg2: x3  (EESP missed the ARG2)
 
 NounPhrase
  sp-hd_n_c (two)

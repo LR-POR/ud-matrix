@@ -1,5 +1,6 @@
 
-http://shasta.sl.cloud9.ibm.com:9002/?input=This+is+a+big+red+balloon.#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=This+is+a+big+red+balloon.#
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=This+is+a+big+red+balloon.#
 
 SENT: This is a big red balloon .
 
@@ -33,7 +34,6 @@ ICONS: < > ] ;
 Action 
  _be_v_id: 5:7
  
-
 Role
  arg1: x3 /this
  arg2: x8 /balloon
@@ -48,3 +48,8 @@ Adjective
   _red_a_1 314
 
 #+END_EXAMPLE
+
+ERG analisys and http://verbs.colorado.edu/propbank/framesets-english-aliases/be.html diverge:
+
+1. propbank has the be.02 sense (existing) with only ARG1
+1. ERG predicate be_id_is is unique for `A is B` or `there is A.`

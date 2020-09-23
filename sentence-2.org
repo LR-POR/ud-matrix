@@ -1,5 +1,7 @@
 
-http://shasta.sl.cloud9.ibm.com:9002/?input=Abrams+barked.#
+
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=Abrams+barked.#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=Abrams+barked.#
 
 SENT: Abrams barked.
 
@@ -23,15 +25,10 @@ ICONS: < > ] ;
 
 
 Action 
- span = 7:13
- base = bark
- tense = past
- mood = indicative
- progressive = no
- perfect = no
+ ESSP missed barked
 
 Role
- arg1: x3 = named("Abrams")  // arg1 is normally the agent of the verb
+ ESSP missed Abrams 
 
 
 NounPhrase

@@ -1,5 +1,5 @@
 
-http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+plan+that+was+just+agreed+upon+has+been+changed#
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+plan+that+was+just+agreed+upon+has+been+changed.#
 
 SENT: The plan that was just agreed upon has been changed .
 
@@ -58,3 +58,5 @@ RelativeClause
  flr-hd_rel-fin_c
 
 #+END_EXAMPLE
+
+EESP annotate `that` as A0 but ERG semantic output omits `that` makes A0 the `plan`. 
