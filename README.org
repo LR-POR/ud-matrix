@@ -65,6 +65,9 @@ sentences are grouped by syntatic constructions). This page is
 replicated here in csli.txt. Note that some sentences are not
 grammatically correct (marked with *).
 
+Translations was done using IBM Language Translator Service
+https://www.ibm.com/watson/services/language-translator/
+
 * conllu files
 
 all processed with [[http://lindat.mff.cuni.cz/services/udpipe/][udpipe]] using the
