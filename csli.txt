@@ -1,0 +1,2021 @@
+  
+HP - NL Test Suite (as of June 30, 1987) 
+Dan Flickinger, Marilyn Friedman, Mark Gawron, John Nerbonne, Carl Pollard, Geoffr 
+Lexical dependencies
+Arity (predicates taking different numbers of obligatory arguments) 
+One obligatory argument (core)
+
+1. Abrams works.
+
+Two obligatory arguments (core)
+
+2. Abrams hired Browne.
+
+Three obligatory arguments (core)
+
+3. Abrams showed the office to Browne. 
+4. Abrams showed Browne the office.
+
+Four obligatory arguments (core)
+
+5. Abrams bet Browne five dollars that Chiang hired Devito.
+
+Predicates prohibiting certain arguments (core)
+
+6. Abrams became competent. 
+7. Abrams became a manager. 
+8. *Abrams became in the office. 
+9. *Abrams became working.
+
+Optional arguments (core)
+
+10. Abrams is interviewing an applicant. 
+11. Abrams is interviewing. 
+12. Abrams is working for Browne. 
+13. Abrams is working.
+
+Preposition selection (core)
+
+14. Abrams works for Browne. 
+15. *Abrams works of Browne. 
+16. Abrams approves of Browne. 
+17. *Abrams approves for Browne.
+
+Case assignment 
+Personal pronouns (core)
+
+18. She hired him. 
+19. He hired her. 
+20. *She hired he 
+21. *He hired she. 
+22. *Her hired he. 
+23. *Him hired she. 
+24. *Her hired him. 
+25. *Him hired her. 
+26. He showed it to her. 
+27. *He showed her it. 
+28. He showed her an office. 
+29. He showed it to Chiang. 
+30. *He showed Chiang it. 
+31. He interviewed them. 
+32. *He interviewed they. 
+33. They interviewed him. 
+34. *Them interviewed him. 
+35. I interviewed Abrams. 
+36. Abrams interviewed me. 
+37. *Me interviewed Abrams. 
+38. *Abrams interviewed I. 
+39. We interviewed Abrams. 
+40. Abrams interviewed us. 
+41. *Us interviewed Abrams. 
+42. *Abrams interviewed we. 
+43. You interviewed Abrams. 
+44. Abrams interviewed you. 
+45. She and I interviewed Abrams. 
+46. I and she interviewed Abrams. 
+47. Me and her interviewed Abrams. 
+48. Her and me interviewed Abrams. 
+49. *Her and I interviewed Abrams. 
+50. *She and me interviewed Abrams. 
+51. *Me and she interviewed Abrams. 
+52. *I and her interviewed Abrams. 
+53. Abrams interviewed her and me. 
+54. Abrams interviewed she and I. 
+55. Abrams interviewed me and her. 
+56. *Abrams interviewed I and she. 
+57. Abrams interviewed her and I. 
+58. *Abrams interviewed she and me. 
+59. *Abrams interviewed me and she. 
+60. *Abrams interviewed I and her. 
+61. who/whom (periphery) 
+62. She works for whom? 
+63. She works for who? 
+64. She manages whom? 
+65. She manages who? 
+66. She showed whom an office? 
+67. She showed who an office? 
+68. Whom does she work for? 
+69. Who does she work for? 
+70. For whom does she work? 
+71. *For who does she work? 
+72. Who hired Browne? 
+73. *Whom hired Browne?
+
+Dummies 
+it-type (core) 
+Weather
+
+74. It is time for an interview. 
+75. *It are time for an interview.
+
+Extraposition
+
+76. It is true that Abrams hired Browne. 
+77. *It are true that Abrams hired Browne.
+
+there-type 
+Existential (core)
+
+78. There is a bookcase in the office. 
+79. There are programmers. 
+80. *There are a bookcase in the office. 
+81. *There is programmers. 
+82. There are programmers working for Devito. 
+83. *There is programmers working for Devito. 
+84. There are programmers older than Devito. 
+85. *There is programmers older than Devito. 
+86. *There are a bookcase in the office. 
+87. *There is programmers. 
+88. *There are programmers managers.
+
+Presentational (periphery)
+
+89. There stands in the office a bookcase.
+
+Enumerative (periphery)
+
+90. There is Abrams, Browne, and Chiang.
+
+Agreement (core) 
+Subject-verb
+
+91. A manager works. 
+92. Managers work 
+93. *A manager work. 
+94. *Managers works. 
+95. I work. 
+96. *I works. 
+97. You work. 
+98. *You works. 
+99. He works. 
+100. *He work. 
+101. We work. 
+102. *We works. 
+103. They work. 
+104. *They works.
+
+Determiner-noun
+
+105. Abrams hired this employee. 
+106. Abrams hired these employees. 
+107. *Abrams hired these employee. 
+108. *Abrams hired this employees.
+
+Relative pronoun
+
+109. List women who have bookcases. 
+110. *List women which have bookcases. 
+111. *List bookcases who women have. 
+112. List bookcases which women have.
+
+Predicate phrases
+
+113. A manager is an employee. 
+114. Managers are employees. 
+115. *A manager is employees. 
+116. *Managers are an employee. 
+117. Bound anaphoric proforms 
+118. The woman evaluated herself. 
+119. *The woman evaluated himself. 
+120. The women evaluated themselves. 
+121. *The women evaluated herself. 
+122. The woman showed an office to herself. 
+123. The woman showed herself an office. 
+124. Abrams showed the programmers to themselves. 
+125. Abrams showed the programmers themselves. 
+126. *Abrams showed themselves the programmers. 
+127. Abrams evaluated himself and Browne. 
+128. Abrams evaluated Browne and himself.
+
+Free anaphoric pronouns
+
+129. The woman evaluated her own staff. 
+130. *The woman evaluated his own staff. 
+131. The women evaluated their own staffs. 
+132. *The women evaluated her own staffs.
+
+Verb phrase complements (core) 
+Auxiliary
+
+133. Abrams may hire Browne. 
+134. Abrams might hire Browne. 
+135. Abrams can hire Browne. 
+136. Abrams could hire Browne. 
+137. Abrams shall hire Browne. 
+138. Abrams should hire Browne. 
+139. Abrams will hire Browne. 
+140. Abrams would hire Browne. 
+141. Abrams must hire Browne. 
+142. *Abrams dare hire Browne. (Compare with Abrams dare not hire Browne.) 
+143. *Abrams need hire Browne. (Compare with Abrams need not hire Browne.) 
+144. Abrams did hire Browne. 
+145. Abrams has hired Browne. 
+146. Abrams is hiring Browne. 
+147. Abrams is to hire Browne. 
+148. Abrams had better hire Browne. 
+149. Abrams better hire Browne. 
+150. Abrams ought to hire Browne. 
+151. Abrams used to hire Browne. 
+152. Abrams could have hired Browne. 
+153. Abrams could be hiring Browne. 
+154. Abrams could have been hiring Browne. 
+155. Browne was interviewed by Abrams. 
+156. Browne could be interviewed by Abrams. 
+157. Browne has been interviewed by Abrams. 
+158. Browne is being interviewed by Abrams. 
+159. Browne could have been interviewed by Abrams. 
+160. Browne could be being interviewed by Abrams. 
+161. Browne has been being interviewed by Abrams. 
+162. Browne could have been being interviewed by Abrams. 
+163. *Abrams could hired Browne. 
+164. *Abrams could hiring Browne. 
+165. *Abrams has hire Browne. 
+166. *Abrams has hiring Browne. 
+167. *Abrams is hire Browne. 
+168. *Abrams is hired Browne. 
+169. *Abrams has could hire Browne. 
+170. *Abrams is coulding hire Browne. 
+171. *Abrams is having hired Browne. 
+172. *Abrams has could be hiring Browne. 
+173. *Abrams could be having hired Browne. 
+174. *Abrams could may hire Browne. 
+175. *Abrams has had hired Browne. 
+176. *Abrams is being hiring Browne. 
+177. *Abrams did could hire Browne. 
+178. *Abrams did have hired Browne. 
+179. *Abrams did be hiring Browne. 
+180. *Browne is could interviewed by Abrams. 
+181. *Browne is had interviewed by Abrams. 
+182. *Browne did be interviewed by Abrams. 
+183. *Browne is did interviewed by Abrams. 
+184. *Browne is been interviewed by Abrams.
+
+Nonauxiliary 
+Infinitival question
+
+185. Abrams knew who to hire.
+
+Clausal complements (core) 
+wh-type
+
+186. Abrams knew who Browne hired.
+
+Non-wh-type
+
+187. Abrams knew that Browne hired Chiang.
+
+Particles (core) 
+Adjacent to verb
+
+188. Abrams laid off a programmer.
+
+Non-Adjacent to verb
+
+189. Abrams laid a programmer off.
+
+Control (core) 
+Subject-Controlled equi
+
+190. Abrams managed to hire Browne. 
+191. Abrams managed to evaluate himself. 
+192. *There managed to be a bookcase in the office. 
+193. *It managed to be time for an interview. 
+194. *It managed to be true that Abrams hired Browne. 
+195. Abrams promised Browne to hire Chiang. 
+196. He promised us to evaluate himself. 
+197. *He promised us to evaluate ourselves. 
+198. *Abrams promised there to be a bookcase in the office. 
+199. Abrams promised Browne to be interviewed by Chiang. 
+200. *Browne was promised by Abrams to hire Chiang 
+201. *Browne was promised to hire Chiang..
+
+Object-Controlled equi
+
+202. Abrams urged Browne to hire Chiang. 
+203. Browne was urged to hire Chiang. 
+204. Abrams urged Browne to be interviewed. 
+205. Abrams was urged to be interviewed. 
+206. *Abrams urged there to be a bookcase in the office. 
+207. *Abrams urged it to be time for an interview. 
+208. *Abrams urged it to be true that Browne hired Chiang. 
+209. He urged them to evaluate themselves. 
+210. *He urged them to evaluate himself.
+
+PP-Object-Controlled equi
+
+211. Abrams appealed to Browne to hire Chiang. 
+212. Abrams appealed to Browne to be interviewed. 
+213. *Abrams appealed to there to be a bookcase in the office. 
+214. *Abrams appealed to it to be time for an interview. 
+215. He appealed to us to evaluate ourselves. 
+216. *He appealed to us to evaluate himself.
+
+Subject-to-Subject raising
+
+217. Abrams failed to hire Browne. 
+218. Abrams failed to evaluate himself. 
+219. There fails to be a bookcase in the office. 
+220. There fail to be bookcases in the office. 
+221. I failed to be time for an interview. 
+222. I failed to be true that Abrams hired Browne. 
+223. *There fail to be a bookcase in the office. 
+224. Abrams failed to be interviewed by Browne. 
+225. Abrams failed to be interviewed by Browne. 
+226. *To interview Browne was failed by Abrams.
+
+Subject-to-Object raising with to infinitive
+
+227. Abrams caused Browne to hire Chiang. 
+228. Abrams caused Browne to be hired by Chiang. 
+229. He caused us to evaluate ourselves. 
+230. *He caused us to evaluate himself. 
+231. Abrams knew there to be a bookcase in the office. 
+232. There was known to be a bookcase in the office. 
+233. Abrams knew it to be time for an interview. 
+234. It was known to be time for an interview. 
+235. Abrams knew it to be true that Browne hired Chiang. 
+236. It was known to be true that Chiang was hired by Browne.
+
+Subject-to-Object raising with bare infinitive
+
+237. Abrams made Browne hire Chiang. 
+238. Abrams made there be a bookcase in the office. 
+239. Abrams made it be time for an interview.
+
+Implicit subject infinitive. 
+to infinitive
+
+240. Abrams failed to hire Browne.
+
+Bare infinitive
+
+241. Abrams helped hire Browne.
+
+Object as complements
+
+242. Abrams sees Browne as being a competent manager. 
+243. Abrams sees Browne as a competent manager. 
+244. *Abrams sees there as being a bookcase in the office. 
+245. *Abrams sees there as a bookcase in the office.
+
+Resultatives (periphery)
+
+246. Abrams smiled himself into an interview.
+
+Instrumentals (core)
+
+247. Abrams works with a telephone.
+
+Passive, with and without by-phrase (core) 
+Be
+
+248. Abrams was hired by Browne. 
+249. Abrams was hired. 
+250. He was hired by her. 
+251. *Him was hired by her. 
+252. *He was hired by she. 
+253. An office was shown to Abrams by Chiang. 
+254. A office was shown to Abrams. 
+255. *An office was shown by Abrams to Chiang. 
+256. Chiang was shown an office by Abrams. 
+257. *An office was shown Chiang by Abrams. 
+258. Abrams was urged to hire Browne by Chiang. 
+259. Abrams was urged by Chiang to hire Browne. 
+260. Abrams was urged to hire Browne. 
+261. Abrams was known to be interviewing Browne. 
+262. Abrams was known by Chiang to be interviewing Browne. 
+263. Abrams was known to be interviewing Browne. 
+264. There was known to be a bookcase in Browne's office. 
+265. It was known to be true for an interview. 
+266. It was known to be true that Abrams hired Browne. 
+267. *There was urged to be a bookcase in Browne's office. 
+268. *It was urged to be time for an interview. 
+269. *It was urged to be true that Abrams hired Browne. 
+270. Abrams was made to interview Browne. 
+271. *Abrams was made interview Browne.
+
+Get
+
+272. Abrams got hired by Browne. 
+273. Abrams got hired.
+
+Have
+
+274. Abrams had Browne hired by Chiang. 
+275. Abrams had Browne hired.
+
+Pseudo-passive (periphery)
+
+276. Abrams was approved of by Chiang. 
+277. Abrams was approved of. 
+278. Abrams was appealed to to hire Chiang.
+
+Un-adjectives (periphery)
+
+279. Abrams was unevaluated by Chiang. 
+280. Abrams was unevaluated.
+
+Copular constructions (core) 
+Predicative
+
+281. Abrams is competent. 
+282. Abrams is good at interviews. 
+283. Abrams is a manager. 
+284. Abrams is a manager of programmers. 
+285. Abrams is in the office. 
+286. *Abrams is of programmers.
+
+Identity
+
+287. Abrams is the manager of the project.
+
+Declarative dislocations (periphery)
+
+XP - [NP - VP]
+
+288. That office, the consultants work in. 
+289. To Browne, Abrams showed an office. 
+290. Competent, Abrams is. 
+291. Hire Browne, Abrams did.
+
+XP -Aux - NP - VP
+
+292. Not one programmer did Abrams hire. 
+293. At no time did Abrams hire a programmer. 
+294. No more competent was Abrams. 
+ 
+
+XP - V - NP
+
+295. A trustworthy employee is Abrams. 
+296. In the office is the bookcase. 
+297. Competent is the manager who hired Abrams. 
+298. Standing in the office is the bookcase.
+
+Adverbial
+
+299. Never does Abrams work with Browne.
+
+PP subjects
+
+300. In the office is a good location for the bookcase.
+
+Relative clauses 
+Restrictive relative clauses (core) 
+wh-type
+
+301. Abrams hire a woman who was competent. 
+302. Abrams hired women who were competent. 
+303. *Abrams hired a woman who were competent. 
+304. *Abrams hired women who was competent. 
+305. Abrams hired women whose manager was competent. 
+306. Abrams hired a woman who Browne interviewed. 
+307. Abrams hired a woman who Browne approved of. 
+308. Abrams hired a woman who Browne knew Chiang interviewed. 
+309. Abrams has a bookcase which is heavy. 
+310. Abrams has a bookcase that is heavy. 
+311. *Abrams has a bookcase what is heavy. 
+312. Abrams has an office that Browne showed Chiang. 
+313. Abrams has an office which Browne showed Chiang. 
+314. Abrams has an office Browne showed Chiang. 
+315. Abrams has an office that Browne showed to Chiang. 
+316. Abrams has an office which Browne showed to Chiang. 
+317. Abrams interviewed a woman who Browne showed an office to. 
+318. Abrams has an office Browne showed to Chiang. 
+319. Abrams hired a woman that was competent. 
+320. *Abrams hired a woman was competent. 
+321. Abrams hired a woman that Browne interviewed. 
+322. Abrams hired a woman Browne interviewed. 
+323. Abrams hired a woman that Browne approved of. 
+324. Abrams hired a woman Browne approved of. 
+325. Abrams hired a woman that Browne knew Chiang interviewed. 
+326. Abrams hired a woman Browne knew Chiang interviewed. 
+327. List every programmer that there is working for Chiang. 
+328. List projects there are consultants on. 
+329. List managers of projects who work for Abrams. 
+330. *List managers who work for Abrams of projects. 
+331. Abrams hired a woman Browne interviewed who Chiang approved of. 
+332. *Abrams hired a woman who Browne interviewed Chiang approved of. 
+333. *It that is time for an interview is true that Abrams hired Browne. 
+334. *There that was a programmer was a consultant on a project.
+
+Reduced (core)
+
+335. Abrams hired a woman interviewed by Chiang. 
+336. Abrams hired a woman working for Chiang. 
+337. Abrams hired a woman to work for Chiang. 
+338. Abrams hired anyone knowing that Devito manages Browne. 
+339. Abrams hired anyone competent to work on the project. 
+340. Abrams has an office with a bookcase.
+
+Free relatives (core)
+
+341. Abrams approved of what Chiang did. 
+342. Abrams approved of who Chiang hired. 
+343. Abrams approved of where Chiang worked.
+
+Pied Piping (periphery)
+
+344. Abrams hired a woman of whom Chiang approved. 
+345. *Abrams hired a woman of who Chiang approved. 
+346. Abrams has a bookcase of which Chiang approved. 
+347. *Abrams has a bookcase of that Chiang approved. 
+348. Abrams hired a woman the manager of whom Chiang had interviewed. 
+349. *Abrams hired a woman the manager of who Chiang had interviewed 
+350. *Abrams hired a woman the manager of that Chiang had interviewed. 
+351. Abrams hired a woman whose manager Chiang had interviewed. 
+352. Abrams interviewed programmers whose manager was Chiang. 
+353. *Abrams interviewed programmers whose manager were Chiang.
+
+Island constraints (core)
+
+354. Coordinate Structure Constraint
+
+Coordinate element
+
+355. *Which project is Abrams a programmer and the manager of?
+
+Coordinate conjunct
+
+356. *Which project does Abrams manage this department and?
+
+Complex NP constraint 
+Weak
+
+357. *Which managers are there programmers who work for?
+
+Strong
+
+358. *Which manager did Abrams have an office that Chiang showed to?
+
+Wh-Island Constraint 
+Weak
+
+359. *Which projects does Abrams known who had worked on?
+
+Strong
+
+360. *Which managers does Abrams know which offices Browne had shown to? 
+361. With subject condition violation 
+362. *Which programmer did Abrams know which office had?
+
+Sentential subject constraint
+
+363. *Which programmer was that Abrams had interviewed known by Browne?
+
+Questions 
+Independent interrogative clauses (core) 
+Polar
+
+364. Is Abrams a manager? 
+365. *Does Abrams be a manager? 
+366. Is Abrams competent? 
+367. *Are Abrams competent? 
+368. Is there a bookcase in Browne's office? 
+369. Are there bookcases in Browne's office? 
+370. *Are there a bookcase in Browne's office? 
+371. *Does there be a bookcase in Browne's office? 
+372. Is it time for an interview? 
+373. Is it true that Abrams hired Browne? 
+374. *Are it time for an interview? 
+375. *Does it be time for an interview? 
+376. *Are it true that Abrams hired Browne? 
+377. *Does it be true that Abrams hired Browne? 
+378. Does Abrams work for Browne? 
+379. Could Abrams work for Browne? 
+380. Is Abrams working for Browne? 
+381. Has Abrams worked for Browne? 
+382. Could Abrams be working for Browne? 
+383. Could Abrams have worked for Browne? 
+384. Has Abrams been working for Browne? 
+385. Could Abrams have been working for Browne? 
+386. *Has been Abrams working for Browne? 
+387. *Has Abrams is working for Browne? 
+388. *Has Abrams be working for Browne. 
+389. *Have Abrams could be working for Browne. 
+390. Could Abrams have been interviewed by Browne? 
+391. Has Abrams been interviewed by Browne? 
+392. Was Abrams interviewed by Browne? 
+393. Was Abrams interviewed? 
+394. Was Abrams being interviewed by Browne? 
+395. *Did Abrams be interviewed by Browne? 
+396. *Was Abrams been interviewing by Browne?
+
+Choice
+
+397. Does Abrams work for Browne or does Browne work for Abrams? 
+398. Does Abrams work for Browne or Browne work for Abrams? 
+399. Does Abrams work for Browne or work for Chiang? 
+400. Does Abrams work for Browne or for Chiang? 
+401. Does Abrams work for Browne or Chiang? 
+402. Did Abrams interview Browne or was Abrams interviewed by Browne? 
+403. Was Abrams interviewed by Browne or Browne interviewed by Chiang? 
+404. Was Abrams interviewed by Browne or by Chiang? 
+405. Was Abrams interviewed by Browne or Chiang? 
+  
+  
+ 
+
+Constituent 
+Subject wh 
+wh pronoun 
+ 
+
+406. Who works for Chiang? 
+407. Who is a manager? 
+408. Who will be a manager? 
+409. Who is managed by Abrams? 
+410. What was shown to Browne?
+
+wh determiner + noun
+
+411. Which programmer works for Abrams? 
+412. Which programmer is a manager? 
+413. Which programmer will be a manager? 
+414. Which programmer was hired by Abrams?
+
+Nonsubject wh 
+wh pronoun
+
+415. Who does Chiang employ? 
+416. What did Abrams show Browne? 
+417. What did Abrams show to Browne? 
+418. What was Abrams shown? 
+419. Which manager did Abrams know was interviewing programmers. 
+420. Which managers did Abrams know were interviewing programmers. 
+421. *Which manager did Abrams know were interviewing programmers. 
+422. *Which managers did Abrams know was interviewing programmers.
+
+wh determiner + noun
+
+423. Which programmer did Abrams interview? 
+424. What project does Abrams manage? 
+425. Which office was Abrams shown?
+
+Where questions
+
+426. Where does Abrams work? 
+427. Where was Abrams interviewed?
+
+When questions
+
+428. When did Abrams hire Browne? 
+429. When did Abrams show an office to Browne? 
+430. When was Abrams hired?
+
+How many questions
+
+431. How many programmers does Abrams manage? 
+432. How many programmers are there working for Abrams? 
+433. How many programmers were hired by Abrams?
+
+Preposition stranding
+
+434. Who does Abrams work for? 
+435. Which office does Abrams work in? 
+436. Whom did Abrams show an office to? 
+437. Who is Browne managed by? 
+438. Which department is Abrams the manager of? 
+439. Whose department does Abrams work in?
+
+Pied piping of preposition
+
+440. Of whom does Abrams approve? 
+441. In which office does Abrams work? 
+442. To whom did Abrams show an office? 
+443. Who did Abrams show an office? 
+444. Who was shown an office by Abrams? 
+445. By whom is Browne managed? 
+446. Of which department is Abrams the manager? 
+447. In whose department does Abrams work?
+
+Pied piping of genitive interrogative
+
+448. Whose manager did Abrams hire? 
+449. *Whose did Abrams hire manager? 
+450. Which department's manager did Abrams interview? 
+451. *Which department did Abrams interview manager? 
+452. *Which department's did Abrams interview manager? 
+453. Whose manager's office was Abrams interviewed in?
+
+Pied piping of degree adverbial
+
+454. How competent is Abrams? 
+455. *How is Abrams competent?
+
+Dependent interrogative clauses 
+Subject wh (core)
+
+456. Abrams does not know who hired Browne. 
+457. Abrams does not know who was hired by Browne. 
+458. Abrams does not know which managers interviewed Browne.
+
+Non-subject (core)
+
+459. Abrams does not know who Browne hired. 
+460. Abrams does not know who showed Browne an office. 
+461. Abrams does not know who Browne was hired by.
+
+HPNL TEST SUITE - PART 2 0F 3
+
+462. Abrams does not know whom Browne was hired by. 
+463. Abrams does not know by whom Browne was hired. 
+464. Abrams does not know which programmers Browne hired. 
+465. Abrams does not know where Browne works. 
+466. Abrams does not know when Browne was hired. 
+467. Abrams does not know how many consultants Browne has hired. 
+468. Abrams does not know how competent Browne is.
+
+Multiple wh questions (periphery)
+
+469. Who interviewed whom? 
+470. Who interviewed who? 
+471. Who was interviewed by whom? 
+472. *Who did who interview? 
+473. *Who was who interviewed by? 
+474. *By whom was who interviewed?
+
+wh in situ (echo,quiz, reference clarification) (periphery)
+
+475. Abrams interviewed who? 
+476. Abrams was interviewed by whom? 
+477. Abrams was interviewed by who?
+
+Comparatives and related constructions 
+Comparatives (core) 
+Inflectional
+
+478. Chiang is (two days) older than Browne. 
+479. Abrams is (two days) older than thirty years.
+
+Periphrastic
+
+480. Abrams is more competent than Browne.
+
+Equatives (core)
+
+481. Abrams is as competent as Browne. 
+482. Superlatives (core)
+
+Inflectional
+
+483. Abrams is the oldest manager.
+
+Periphrastic
+
+484. Abrams is the most competent manager.
+
+Comparative deletion (core)
+
+485. Abrams manages more programmers than Browne manages. 
+486. Abrams manages as many programmers as Browne manages. 
+487. Abrams manages more programmers than Browne was interviewed by. 
+488. Abrams interviewed more  programmers than were hired. 
+489. Abrams interviewed as many programmers as were hired. 
+490. Abrams interviewed as many programmers as were not hired. 
+491. Abrams did not interview as many programmers as were hired. 
+492. Abrams has managed more projects than Browne has worked on. 
+493. *Abrams interviewed more programmers than was hired. 
+494. *Abrams has managed more projects than consultants has worked on. 
+495. Abrams interviewed more programmers than Browne showed offices to. 
+496. Abrams has more bookcases than Browne showed to Chiang. 
+497. Abrams is (two days) older than Browne is. 
+498. Abrams is (twice) as old as Browne is. 
+499. *Abrams is (two days) older than Browne are. 
+500. Abrams works harder than Browne works. 
+501. Comparative subdeletion (periphery) 
+502. Abrams manages more programmers than Browne manages engineers. 
+503. Abrams is as competent as Browne is trustworthy. 
+ 
+
+Comparative ellipsis type 1 (core)
+
+504. Abrams manages more programmers than Browne does. 
+505. Abrams manages as many programmers as Browne does. 
+506. Abrams works harder than Browne does. 
+507. *Abrams manages more programmers than Browne do. 
+508. Abrams became more competent than Browne did.
+
+Comparative ellipsis type 2 (periphery)
+
+509. Abrams manages more programmers than Browne does engineers. 
+510. Abrams manages as many programmers as Browne does engineers. 
+511. Abrams became more competent than Browne did trustworthy. 
+512. *Abrams manages more programmers than Browne do engineers.
+
+Comparative ellipsis type 3 (core)
+
+513. Abrams manages more programmers than Browne. 
+514. Chiang is (twice) as old as Abrams. 
+515. Chiang works harder than Abrams.
+
+Comparative ellipsis type 4 (periphery)
+
+516. More managers know Abrams is competent than trustworthy.
+
+Pied Wiping (core)
+
+517. Abrams hired more programmers than was known by Browne. 
+518. Abrams hired more programmers than were known by Browne. 
+519. Prepositional comparative (core) 
+520. More programmers than engineers work for Abrams. 
+521. As many programmers as engineers work for Abrams. 
+522. *More programmers than engineers works for Abrams. 
+523. More programmers than engineers were hired. 
+524. *More programmers than engineers was hired. 
+525. Inversion in than clause (periphery) 
+526. Abrams manages more programmers than does Browne. 
+527. Abrams manages as many programmers as does Browne. 
+528. *Abrams manages more programmers than do Browne. 
+529. Gapping in comparatives (periphery) 
+530. Abrams approves of Browne more than Browne of Abrams. 
+531. Abrams approves of Browne as much as Browne of Abrams. 
+532. Extraposition of than clauses (core) 
+533. More programmers were interviewed than Abrams could hire. 
+534. As many programmers were interviewed as Abrams could hire.
+
+Coordination
+
+Binary versus multiple conjuncts (core)
+
+535. Chiang is a manager and Devito is a programmer. 
+536. Chiang and Devito work. 
+537. Browne, Chiang, and Devito work. 
+538. Browne and Chiang and Devito work. 
+539. *Chiang, Devito work. 
+540. *Browne and Chiang, Devito work. 
+541. *Browne, Chiang, Devito work.
+
+Coordination with but (core)
+
+542. Chiang is a manager but Devito is a programmer. 
+543. *Chiang but Devito work. 
+544. *Browne, Chiang, but Devito work. 
+545. *Browne but Chiang but Devito work. 
+546. *Chiang, Devito work. 
+547. *Browne but Chiang, Devito work.
+
+Dependencies between conjunctions (periphery)
+
+548. Both Chiang and Devito work. 
+549. Either Chiang or Devito works. 
+550. Neither Chiang nor Devito works. 
+551. *Both Chiang or Devito works. 
+552. *Both Chiang or Devito work. 
+553. *Either Chiang and Devito works. 
+554. *Either Chiang and Devito work. 
+555. *Neither Chiang or Devito works. 
+556. *Chiang nor Devito works.
+
+Like categories and unlike categories (core) 
+Cross-categorial coverage
+
+557. Chiang hired Devito, and Devito manages Browne. 
+558. Chiang hired Devito and manges Browne. 
+559. *Chiang hired Devito and manage Browne. 
+560. Abrams was interviewed, and Browne was hired. 
+561. Abrams interviewed programmers, and Browne was hired. 
+562. Abrams interviews programmers and is managed by Browne. 
+563. Abrams was interviewed and was hired. 
+564. Abrams was interviewed by Browne and hired by Devito. 
+565. Abrams was interviewed and hired by Browne. 
+566. Abrams was interviewed and hired. 
+567. Chiang works and manages programmers. 
+568. *Chiang work and manages programmers. 
+569. *Chiang work and manage programmers. 
+570. Chiang interviewed programmers and showed Browne an office. 
+571. Chiang showed Browne an office and interviewed programmers. 
+572. Chiang worked and showed Browne an office. 
+573. Chiang hired and manages Devito. 
+574. *Chiang hired and manage Devito. 
+575. Devito works for Devito and with Browne. 
+576. Devito works for and with Chiang. 
+577. An old and trustworthy employee manages Devito. 
+578. *An old and trustworthy employee manage Devito. 
+579. Devito is old and trustworthy. 
+580. The managers and programmers are employees. 
+581. Devito manages a programmer who Abrams interviewed and Browne hired. 
+582. Devito manages a programmer Abrams interviewed and Browne hired. 
+583. Devito is the manager who interviewed Abrams and hired Browne. 
+584. *Devito hired a programmer who Abrams interviewed and works for Browne. 
+585. Devito manages a programmer interviewed by Abrams and hired by Browne. 
+586. *Devito manages a programmer Abrams interviewed and hired by Browne. 
+587. *Devito manages a programmer interviewed by Abrams and who works for Browne. 
+588. Devito interviewed a programmer and an engineer who know each other. 
+589. Did Abrams interview a programmer and did Browne hire an engineer? 
+590. Did Abrams interview a programmer and Browne hire an engineer? 
+591. Did Abrams interview a programmer and hire an engineer? 
+592. Did or will Abrams interview Browne? 
+593. *Did or is Abrams interview Browne? 
+594. *Did or is Abrams interviewing Browne? 
+595. Who did Abrams interview and who did Browne hire? 
+596. Who did Abrams interview and Browne hire? 
+597. *Who did Abrams interview and did Browne hire? 
+598. Who was interviewed by Abrams and hired by Browne? 
+599. *Who was Abrams interviewing and hired by Browne?
+
+Mixed category cases (periphery)
+
+600. Devito is a manager and trustworthy. 
+601. Devito is a programmer and in Chiang's department. 
+602. Devito is in Chiang's department and trustworthy. 
+603. Browne was an applicant and interviewed by Devito. 
+604. Browne was neither competent nor hired. 
+605. Devito is in the office and interviewing an applicant. 
+606. Devito became a manager and trustworthy. 
+607. *Chiang became a programmer and in Devito's department. 
+608. Across the board
+
+Gaps (core)
+
+609. Who does Devito manage and Chiang work for? 
+610. *Who does Devito manage and Chiang works for? 
+611. *Who does Devito manage and Chiang work for? 
+612. *Who does Devito manages and Chiang works for? 
+613. *Who does Devito manage Browne and Chiang work for? 
+614. Who was Abrams interviewed by and hired by? 
+615. *Who was Abrams interviewed by Browne and hired by? 
+616. *Who does Devito manage and Chiang work for Browne?
+
+Relatives (periphery)
+
+617. Devito is the manager with whom and for whom Chiang works. 
+618. *Devito is the manager with whom and for Browne Chiang works.
+
+Questions (periphery)
+
+619. Which department and which project does Chiang work in? 
+620. *Which department and which project do Chiang work in? 
+621. *Which department and Devito's project does Chiang work in?
+
+NP coordination and agreement (core) 
+Subject-verb number agreement
+
+622. *Devito and Chiang works. 
+623. *Both Chiang and Devito works. 
+624. Either Chiang or Devito work. 
+625. Neither Devito nor Chiang work. 
+626. Either Devito or the programmers work. 
+627. *Either Devito or the programmers works. 
+628. Either the programmers or Devito works. 
+629. Either the programmers or Devito work. 
+630. Neither Devito nor the programmers work. 
+631. *Neither Devito nor the programmers works. 
+632. Neither the programmers nor Devito works. 
+633. Neither the Programmers nor Devito work.
+
+Reflexive person agreement
+
+634. The manager and the programmer evaluated themselves. 
+635. You and the manager evaluated yourselves. 
+636. The manager and I evaluated ourselves. 
+637. You and I evaluated ourselves. 
+638. *You and the manager evaluated themselves. 
+639. *The manager and I evaluated themselves. 
+640. *You and I evaluated yourselves.
+
+Nonconstituent coordination (periphery)
+
+641. Chiang bet Devito $5 that Browne interviewed Abrams and Browne $10 that Abrams 
+642. wouChiang bet Devito $5 that Browne interviewed Abrams and $10 that Abrams would
+
+643. be hChiang bet Devito $5 and Browne $10 that Abrams would be hired. 
+644. Browne worked for Abrams on Monday and Devito an Tuesday.
+
+ Anaphora 
+Intrasentential free pronominal anaphora 
+Forwards (core)
+
+645. Devito knew that he had hired a programmer. 
+646. The manager evaluated her staff.
+
+Backwards (periphery)
+
+647. Her manager interviewed Browne. 
+648. The person who manages him knows that Browne is competent.
+
+Intersentential free pronominal anaphora (core)
+
+649. Devito interviewed programmers. He hired Browne.
+
+Bound anaphora 
+Reflexives (core)
+
+650. Browne evaluated himself.
+
+Reciprocals (core)
+
+651. The managers evaluated each other. 
+652. The managers evaluated each other's projects.
+
+Emphatic reflexives
+
+653. Abrams interviewed the applicant himself. 
+654. Abrams himself interviewed the applicant. 
+655. *Abrams interviewed himself the applicant. 
+656. Disjoint reference of lexical NPs (core) 
+657. Browne evaluated him. ("Browne" a different person from "him") 
+658. *I evaluated me. 
+659. *We evaluated us. 
+660. *I evaluated us. 
+661. *We evaluated me. 
+662. She evaluated her. ("She" a different person from "her") 
+663. You evaluated you. (The first "you" a different person from the second one) 
+664. The manager evaluated the members of the department. ("The manager" not among "the members") 
+665. I evaluated Abrams and me. 
+666. I evaluated Abrams and myself. 
+667. I evaluated myself and Abrams. 
+668. I evaluated me and Abrams.
+
+Donkey pronouns (core)
+
+669. Every manager who interviewed a programmer hired him. 
+670. If a programmer was interviewed by every manager, he was hired. 
+671. Every engineer who has a bookcase works for Abrams. 
+672. The engineer who has a bookcase works for Abrams. 
+673. It is in the office.
+
+One(s) (core)
+
+674. Show the ones that have been hired. 
+675. The trustworthy consultants are programmers. The competent ones are engineers. 
+676. This consultant is older than that one.
+
+Nonpronominal epithets (periphery)
+
+677. Abrams works in the consultants' office, and interviewed Browne in that 
+location. 
+678. Browne was interviewed by Devito, who knew that the applicant was not
+
+trustworthy.
+
+Paycheck sentences (periphery)
+
+679. The manager who evaluated his programmers is more competent than the one who had
+
+Bach-Peters sentences (periphery)
+
+680. A woman who works in his department was interviewed by a manager who hired her.
+
+Vp ellipsis 
+Intrasentential 
+Forward (core)
+
+681. If Abrams didn't hire a programmer, Browne did. 
+682. If Abrams couldn't have been working, Browne could have been. 
+683. If Abrams couldn't have been working, Browne could have. 
+684. If Abrams couldn't have been working, Browne could. 
+685. *If Abrams couldn't have been working, Browne did. 
+686. *If Abrams couldn't work, Browne could have been. 
+687. If Abrams was interviewed by Browne, Chiang might have been. 
+688. *If Abrams was interviewed by Browne, Chiang might have. 
+689. Abrams was interviewing programmers, and Browne was, too. 
+690. Abrams was interviewing programmers, and so was Browne. 
+691. Abrams was interviewing programmers, or Browne was. 
+692. Either Abrams was interviewing programmers, or Browne was. 
+693. *Either Abrams was interviewing programmers, or so was Browne. 
+694. Abrams wasn't interviewing programmers, and Browne was. 
+695. Abrams wasn't interviewing programmers, but Browne was. 
+696. *Either Abrams was interviewing programmers, but Browne was. 
+697. Abrams wasn't interviewing programmers, nor was Browne. 
+698. Abrams wasn't interviewing programmers,and neither was Browne. 
+699. Abrams wasn't interviewing programmers, but neither was Browne. 
+700. Abrams wasn't interviewing programmers, and Browne wasn't either. 
+701. *Abrams wasn't interviewing programmers, and Browne wasn't, too. 
+702. *Abrams wasn't interviewing programmers, and so wasn't Browne. 
+703. *Abrams wasn't interviewing programmers, and so was Browne. 
+704. *Abrams wasn't interviewing programmers, but Browne wasn't. 
+705. *Abrams was interviewing programmers, and neither was Browne. 
+706. *Abrams was interviewing programmers, nor was Browne. 
+707. If there should be a consultant interviewing programmers, there will be. 
+708. If there should be a consultant interviewing programmers, there is. 
+709. *If there should be a consultant interviewing programmers, there are. 
+710. *If a consultant should be interviewing programmers, there will be. 
+711. If managers are not interviewing programmers, a consultant is. 
+712. *If managers are not interviewing programmers, a consultant are.
+
+Backward (periphery)
+
+713. If Abrams didn't, Browne hired a programmer. 
+714. If Abrams was, Browne might have been interviewed by Chiang. 
+715. If there should be, there will be a consultant interviewing programmers. 
+716. *Abrams wasn't, and Browne was interviewing programmers. 
+717. *So was Abrams, and Browne was interviewing programmers. 
+718. *If there should be, a consultant will be interviewing programmers. 
+719. If managers are not, a consultant is interviewing programmers. 
+720. *If managers is not, a consultant are interviewing programmers.
+
+Intersentential (core)
+
+721. Abrams hired a programmer. Browne didn't.
+
+Inference-based (periphery)
+
+722. Browne will hire a programmer or he will hire an engineer. And when he does, he wiSluicing
+
+Intrasentential 
+Forward (core)
+
+723. Browne will hire a consultant, but he doesn't know when.
+
+Backward (periphery)
+
+724. Although he doesn't know when, Browne will hire a consultant. 
+725. Intersentential (core) 
+726. Browne managed to interview the programmer.
+
+When? 
+Inference-based (periphery)
+
+727. The programmer that Chiang interviewed was Browne.
+
+When? 
+Pseudo-gapping (periphery)
+
+728. Browne wasn't interviewed by Devito, but he was by Chiang. 
+729. Abrams doesn't consult for Browne, but he does for Chiang.
+
+Left-peripheral ellipsis (periphery)
+
+730. Browne showed the office to Abrams on Monday and Chiang on Tuesday.
+
+Null complement anaphora (core) 
+Intrasentential
+
+731. Browne should have interviewed a programmer, but he failed.
+
+Intersentential
+
+732. He should have interviewed a programmer every day. When did he fail?
+
+Adverbial modification (core) 
+Sentential adverbs
+
+733. Evidently Chiang works. 
+734. Chiang evidently works. 
+735. Chiang works, evidently 
+736. Evidently Chiang does not work. 
+737. Chiang evidently does not work. 
+738. *Chiang does evidently not work. 
+739. Chiang does not evidently work. 
+740. Chiang does not work, evidently. 
+741. Chiang has evidently been working. 
+742. Evidently Chiang hired Devito. 
+743. Chiang evidently hired Devito. 
+744. *Chiang hired evidently Devito. 
+745. Chiang hired Devito, evidently. 
+746. Evidently Chiang showed Devito an office. 
+747. Chiang evidently showed Devito an office. 
+748. *Chiang showed evidently Devito an office. 
+749. *Chiang showed Devito evidently an office. 
+750. Chiang showed Devito an office, evidently. 
+751. Evidently Chiang showed an office to Devito. 
+752. Chiang evidently showed an office to Devito. 
+753. *Chiang showed evidently an office to Devito. 
+754. Chiang showed an office evidently to Devito. 
+755. Chiang showed an office to Devito, evidently. 
+756. Evidently there is a consultant on a project. 
+757. There evidently is a consultant on a project. 
+758. There is evidently a consultant on a project. 
+759. There is a consultant evidently on a project. 
+760. There is a consultant on a project, evidently. 
+761. Evidently Abrams was hired by Browne. 
+762. Abrams evidently was hired by Browne. 
+763. Abrams was evidently hired by Browne. 
+764. Abrams was hired, evidently, by Browne. 
+765. Abrams was hired by Browne, evidently. 
+766. *Abrams was hired by, evidently, Browne. 
+767. *Evidently, did Abrams hire Browne? 
+768. *Did evidently Abrams hire Browne? 
+769. Did Abrams evidently hire Browne? 
+770. Did Abrams hire Browne, evidently? 
+771. *Evidently, who did Abrams hire? 
+772. Who, evidently, did Abrams hire? 
+773. *Who did evidently Abrams hire? 
+774. Who did Abrams evidently hire? 
+775. Who did Abrams hire, evidently ? 
+776. Abrams interviewed an engineer who evidently works for Browne. 
+777. *Abrams interviewed an engineer evidently who works for Browne. 
+778. Abrams interviewed an engineer who Browne evidently hired. 
+779. Abrams interviewed an engineer who evidently Browne hired.
+
+Manner adverbs
+
+780. *Competently Abrams works. 
+781. *Abrams competently works. 
+782. Abrams works competently. 
+783. Abrams does not work competently. 
+784. *Abrams has competently been working. 
+785. Abrams manages Chiang competently. 
+786. Abrams showed Chiang an office competently. 
+787. Abrams showed an office to Chiang competently. 
+788. Abrams showed an office to Chiang competently. 
+789. *Competently Abrams is managed by Browne. 
+790. *Abrams competently is managed by Browne. 
+791. Abrams is competently managed by Browne. 
+792. Abrams is managed competently by Browne. 
+793. Abrams is managed by Browne competently. 
+794. *Abrams is managed by competently Browne. 
+795. *Competently, does Abrams manage Browne? 
+796. *Does competently Abrams manage Browne? 
+797. Does Abrams competently manage Browne? 
+798. Does Abrams manage Browne competently? 
+799. *Competently, who does Abrams manage? 
+800. *Who, competently, does Abrams manage? 
+801. *Who does competently Abrams manage? 
+802. Who does Abrams competently manage? 
+803. Who does Abrams manage competently? 
+804. Abrams interviewed an engineer who Browne competently manages. 
+805. *Abrams interviewed an engineer who competently Browne manages.
+
+Auxiliary adverbs
+
+806. Browne merely works. 
+807. Browne merely doesn't work. 
+808. Browne doesn't merely work. 
+809. *Browne does merely not work. 
+810. Browne has merely been interviewed. 
+811. *Merely Browne has been interviewed. 
+812. Browne merely has been interviewed. 
+813. *Browne has been interviewed merely. 
+814. *Browne has been interviewed, merely. 
+815. Browne has merely hired a programmer. 
+816. *Merely, did Browne hire a programmer? 
+817. *Did merely Browne hire a programmer? 
+818. Did Browne merely hire a programmer? 
+819. *Did Browne hire a programmer, merely? 
+820. *Who merely did Browne hire? 
+821. *Who did merely Browne hire? 
+822. Who did Browne merely hire? 
+823. *Who did Browne hire, merely? 
+824. Browne hired an engineer who Abrams merely interviewed. 
+825. Browne hired an engineer who merely interviewed Abrams. 
+826. *Browne hired an engineer who merely Abrams interviewed.
+
+Noun phrases (core) 
+Noun complement
+
+827. Browne's belief that Abrams hired Devito is true.
+
+Restrictive modifiers 
+PP-complements
+
+828. The managers of the projects are trustworthy. 
+829. The consultants to the managers were hired by Abrams.
+
+PP-adjuncts
+
+830. The bookcase in Browne's office is old. 
+831. Anyone with an office works.
+
+Relative clauses 
+On subject
+
+832. The programmer who was hired by Abrams manages the project. 
+833. Abrams manages the project that has consultants. 
+834. *Abrams manages the project has consultants. 
+835. *The programmer was hired by Abrams manages the project.
+
+Elsewhere
+
+836. The programmer whom Browne hired manages the project. 
+837. Abrams works on the project that Browne manages. 
+838. Abrams works on the project Browne manages.
+
+Noun-noun compounds
+
+839. Abrams is a department manager. 
+840. Browne interviewed IBM engineers. 
+841. *Abrams works for department IBM. 
+842. Abrams interviewed an IBM department manager. 
+843. Prenominal adjective phrases 
+844. Abrams works for a competent manager. 
+845. Two competent programmers were hired. 
+846. Browne's heavy bookcase is in Devito's office. 
+847. Browne hired a competent programmer who Abrams interviewed. 
+848. Browne is a competent trustworthy manager. 
+849. *Abrams is a good at interviews manager.
+
+Genitives
+
+850. The project's engineers work for Abrams. 
+851. Abrams's engineers were interviewed by Browne. 
+852. Abrams's engineers were interviewed by Browne.
+
+Partitives and null-headed NP's 
+Count partitives
+
+853. None of the consultants work for Abrams. 
+854. None of the consultants works for Abrams. 
+855. Five of the seven consultants work for Abrams. 
+856. Five consultants work for Abrams. 
+857. Any five of the seven consultants can work for Abrams.
+
+Mass/Mass-creating partitives
+
+858. Most of the staff is competent. 
+859. Most of the program works. 
+860. Almost of the program works.
+
+Lexically headed partitives (measure NP's)
+
+861. Five teams of programmers were hired. 
+862. Half of the programmers were interviewed by Abrams. 
+863. Half the programmers were interviewed by Abrams. 
+864. Personal names and titles 
+865. Browne is the manager. 
+866. Lee Browne is the manager. 
+867. Mr. Browne is the manager. 
+868. Mr. Lee Browne is the manager. 
+869. A Mr. Lee Browne is the manager. 
+870. A Lee Browne is the manager. 
+871. Lee Browne, Esq is the manager. 
+872. Abbreviations and acronyms 
+873. Abrams interviewed Browne on Mon. 
+874. Abrams works for IBM.
+
+Dates
+
+875. Browne was hired on 1/3/84. 
+876. Browne was hired on the 1st of January, 1984. 
+877. Browne was hired on January 1st, 1984. 
+878. Browne was hired on 1-3-84.
+
+Place names
+
+879. Abrams interviewed Browne in Paris. 
+880. Abrams interviewed Browne in Paris, France. 
+881. Managers interviewed programmers in Paris, France and Palo Alto. 
+(Ambiguous, two or three locations depending on whether Paris is the Paris in Texas)
+
+Numerals (Cardinal, Ordinal) 
+As adjectives
+
+882. The seven programmers were hired. 
+883. The first programmer was hired. 
+884. All seven programmers were hired. 
+885. The first seven programmers were hired.
+
+As determiners
+
+886. One programmer was hired. 
+887. Seven programmers were hired. 
+888. *First programmer was hired.
+
+Mass/count Agreement
+
+889. Every programmer was hired. 
+890. *Every programmers were hired. 
+891. All programmers were hired. 
+892. *All programmer was hired.
+
+Determiners 
+Simple
+
+893. An engineer was hired. 
+894. A programmer was hired. 
+895. The programmer was hired. 
+896. This programmer was hired. 
+897. These programmers were hired. 
+898. That programmer was hired. 
+899. Those programmers were hired. 
+900. Some programmer was hired. 
+901. Some programmers were hired. 
+902. *Any programmer was hired. 
+903. *Any programmers were hired. 
+904. Most programmers were hired. 
+905. Few programmers were hired. 
+906. No programmers were hired. 
+907. Many programmers were hired.
+
+Complex
+
+908. A dozen programmers were hired. 
+909. All but seven programmers were hired. 
+910. Fewer than half the programmers were hired. 
+911. Fewer than half of the programmers were hired. 
+912. An number of programmers were interviewed. 
+913. An number of programmers was interviewed.
+
+HPNL TEST SUITE - PART 3 OF 3 
+Two-place 
+Doubly-restricted
+
+914. More managers than programmers were interviewed. 
+915. More managers were interviewed. 
+916. Fewer managers than programmers were interviewed.
+
+Coordinating
+
+917. Neither managers nor programmers were interviewed. 
+918. Both managers and programmers were interviewed.
+
+Only + NP
+
+919. Only the more competent programmers were interviewed.
+
+Extraposition constructions (core) 
+it extraposition
+
+920. It appears that Chiang interviewed Browne. 
+921. It appears true that Chiang interviewed Browne. 
+922. Abrams denies it that Chiang works for Browne. 
+923. It is known that Abrams hired Browne. 
+924. *Chiang knows it that Abrams hired Browne.
+
+Extraposition from NP
+
+925. How many managers are there of projects? 
+926. A programmer was hired who Abrams interviewed.
+
+Imperatives
+
+927. Positive subjectless imperatives (core) 
+928. Hire a programmer! 
+929. Be trustworthy! 
+930. *Are trustworthy!
+
+Negative subjectless imperatives (core)
+
+931. Do not hire a programmer! 
+932. Don't hire a programmer! 
+933. Do not be trustworthy! 
+934. *Be not trustworthy!
+
+Positive imperatives with you subject (periphery)
+
+935. You hire a programmer! 
+936. You be trustworthy!
+
+Negative imperatives with you subject (periphery)
+
+937. Don't you hire a programmer! 
+938. Don't you be trustworthy! 
+939. *Do not you hire a programmer! 
+940. *Do you not hire a programmer! 
+941. *Do not you be trustworthy! 
+942. *Do you not be trustworthy!
+
+Positive imperatives with quantified addressee NP (periphery)
+
+943. Everyone hire a programmer! 
+944. Everyone be trustworthy! 
+945. Negative imperatives with quantified subject (periphery) 
+946. Don't anyone hire a programmer! 
+947. Don't anyone be trustworthy! 
+948. *Do not anyone hire a programmer! 
+949. *Do anyone not hire a programmer! 
+950. *Do not anyone be trustworthy! 
+951. *Do anyone not be trustworthy!
+
+Object-gap complements (core) 
+Tough complements
+
+952. It is hard to work. 
+953. It is hard for programmers to work. 
+954. It is hard interview programmers. 
+955. It is hard for managers to interview programmers 
+956. It is hard for managers for engineers to interview programmers. 
+957. Programmers are hard to interview. 
+958. *Programmers are hard to interview engineers. 
+959. *Programmers is hard to interview. 
+960. Programmers are hard for engineers to interview. 
+961. *Programmers are hard for managers for engineers to interview. 
+962. It was hard to show an office to Chiang. 
+963. Chiang was hard to show an office to. 
+964. Offices are hard to show to Chiang. 
+965. Chiang was hard for Abrams to show an office to. 
+966. Offices are hard for Abrams to show to Chiang. 
+967. It was hard to show Chiang an office. 
+968. Chiang was hard to show an office. 
+969. Offices are hard to show Chiang. 
+970. Chiang was hard for Abrams to show an office. 
+971. Offices are hard for Abrams to show Chiang. 
+972. Programmers are a bitch for managers to interview. 
+973. Programmers are a bitch to interview. 
+974. It is a bitch for managers to interview programmers. 
+975. It is a bitch to interview programmers.
+
+Pretty complements
+
+976. The bookcase is heavy for the engineers to move. 
+977. The bookcase is heavy to move. 
+978. *It is heavy for the engineers to move the bookcase. 
+979. *It is heavy to move the bookcase.
+
+Too/enough complements
+
+980. Chiang is too old for the manager to hire. 
+981. Chiang is too old to hire. 
+982. Chiang is old enough for the manager to hire. 
+983. Chiang is old enough to hire. 
+984. *It is too old for the manager to hire Chiang. 
+985. *It is too old to hire Chiang. 
+986. *It is old enough for the manager to hire Chiang. 
+987. *It is old enough to hire Chiang. 
+  
+ 
+
+Clefts (core) 
+it-clefs 
+NP it-cleft's
+
+988. It was Browne who managed the project. 
+989. It is Browne who managed the project 
+990. It was themselves the staff had evaluated.
+
+PP it-clefts
+
+991. It was in January that Browne was hired. 
+992. *It is in January that Browne was hired. 
+993. Pied-Piping focus vs normal focus 
+994. It was BROWNE's manager who interviewed Abrams. 
+995. It was BROWNE whose manager interviewed Abrams.
+
+Wh-clefts 
+NP wh-clefts
+
+996. What Devito works on is Browne's project. 
+997. What is managed by Abrams is Browne's project.
+
+One-clefts
+
+998. The one Devito hired was Browne.
+
+Quantifier scope 
+Ambiguities with negation (core)
+
+999. Browne didn't hire five engineers. (denial of Browne hired five engineers or paraphrase of There were five 
+1000. engineers Abrams didn't interview many programmers. (ambiguous) 
+1001. Many programmers weren't interviewed by Abrams.(non-ambiguous) 
+1002. Many managers didn't interview Browne. (non-ambiguous) 
+1003. Browne wasn't interviewed by many managers.(ambiguous)
+
+Multiple quantifier ambiguities (core)
+
+1004. Every manager interviewed on of the programmers. 
+1005. Two programmers were interviewed by every manager.
+
+Imperative-quantifier ambiguities (core)
+
+1006. List one consultant on every project.
+
+Interrogative-quantifier ambiguities (core)
+
+1007. Who manages every project? 
+1008. Which programmers did every manager interview? 
+1009. Which managers interviewed every programmer?
+
+Group-individual ambiguities (core)
+
+1010. Three engineers manage a project.
+
+Ambiguities with adverbs (periphery)
+
+1011. Abrams competently interviewed many programmers. 
+1012. Abrams doesn't interview programmers often.
+
+Scope Islands (periphery)
+
+1013. Relative clause respecting quantifiers 
+1014. A project that every manager works on is managed by Abrams.(non-ambiguous) 
+1015. Island-Violating quantifiers 
+1016. Every project that a consultant works on is managed by Abrams.(ambiguous)
+
+Sentential subject islands
+
+1017. That many managers had interviewed Abrams was known by two programmers. (non-ambiguous)
+
+Fact-That islands
+
+1018. The fact that many managers had interviewed Abrams was known by two programmers. (non-ambiguous)
+
+Preference factors (periphery) 
+Left-To-Right preference at same level of embedding
+
+1019. Every manager interviewed on of the programmers. (universal-existential preference)
+
+1020. One of the managers interviewed every programmer. (existential-universal preference)
+
+1021. Every programmer was interviewed by one of the managers. (universal-existential preference) 
+1022. One of the programmers was interviewed by every manager. (existential-universal preference) 
+1023. Certain quantifiers prefer wide scope 
+1024. One manager interviewed each programmer. 
+1025. One programmer was interviewed by each manager. 
+1026. One manager interviewed every programmer. 
+1027. One programmer was interviewed by every manager. 
+1028. Long descriptor favors wide scope interpretation. 
+1029. Every manager interviewed a programmer who had worked on a project with Abrams. (existential-universal preference) 
+1030. Every programmer was interviewed by a manager who had worked on a project with Abr(existential-universal preference)
+
+Tight embedding reversal preference
+
+1031. Abrams interviewed a consultant on every project. (universal-existential preference)
+
+World knowledge plausibility
+
+1032. List the manager of every consultant. (universal-wide scope preference)
+
+Interaction with ellipsis
+
+1033. Every manager interviewed many programmers, but Abrams didn't. 
+  
+ 
+
+Conditionals 
+Present antecedent 
+If-then (core)
+
+1034. If Devito hires Browne, then the project will have three programmers. 
+1035. If Devito hires Browne, the project will have three programmers. 
+1036. If Devito does not hire Browne, the project will have three programmers. 
+1037. If Devito hires Browne, the project will not have three programmers. 
+1038. If Devito does not hire Browne, the project will not have three programmers. 
+1039. The project will have three programmers if Devito hires Browne.
+
+Should + Inversion (periphery)
+
+1040. Should Devito hire Browne, the project would have three programmers. 
+1041. Should Devito not hire Browne, the project would have three programmers. 
+1042. *Shouldn't Devito hire Browne, the project would have three programmers. 
+1043. The project would have three programmers, should Devito hire Browne. 
+1044. The project would have three programmers.
+
+Past antecedent (periphery) 
+Past "material" conditional
+
+1045. If Devito hired Browne, then the project had three programmers. 
+1046. If Devito hired Browne, the project had three programmers. 
+1047. If Devito hired Browne, then the project would have had three programmers. 
+1048. If Devito hired Browne, the project would have had three programmers.
+
+Tenseless hypothetical
+
+1049. If Devito hired Browne, then the project would have three programmers. 
+1050. If Devito hired Browne, the project would have three programmers.
+
+"Future" antecedent (periphery) 
+False future (equi-verb "will")
+
+1051. If Devito will hire Browne, the project will have three programmers. 
+1052. True future (raising-verb "will") 
+1053. *If the project will be managed by an engineer, Browne will hire a programmer.
+
+Counterfactuals (periphery) 
+If-then
+
+1054. If Devito had hired Browne, the project would have had three programmers. 
+1055. The project would have had three programmers, if Devito had hired Browne. 
+1056. If Devito had hired Browne, would the project have had three programmers? 
+1057. Would the project have had three programmers, if Devito had hired Browne? 
+1058. Who would Devito have hired, if the project had had three programmers? 
+1059. If the project had had three programmers, who would have hired Devito?
+
+Have + Inversion (periphery)
+
+1060. Had Devito hired Browne, the project would have had three programmers. 
+1061. Had Devito not hired Browne, the project would have had three programmers. 
+1062. *Hadn't Devito hired Browne, the project would have had three programmers. 
+1063. Had Devito hired Browne, would the project have had three programmers? 
+1064. The project would have had three programmers, had Devito hired Browne. 
+1065. Who would Devito have hired, had the project had three programmers.
+
+Conditionals with and and or (periphery)
+
+1066. Hypothetical and and Exclusive or 
+1067. Devito hires Browne and the project has three programmers. 
+1068. *Does Devito hire Browne and the project has three programmers? 
+1069. Devito hires Browne and does the project have three programmers? 
+1070. Either Devito hires Browne, or the project has two programmers. 
+1071. Devito hires Browne, or the project has two programmers. 
+1072. Devito hires Browne, or does the project have two programmers. 
+1073. Who does Devito hire, or the project has two programmers.
+
+"Threat" or "Imperative" Conditionals
+
+1074. Either Browne hires Abrams or the project has two programmers. 
+1075. *Either Browne hires Abrams or does the project has two programmers? 
+1076. *Does either Browne hires Abrams or the project has two programmers? 
+1077. Browne hires Abrams or the project has two programmers. 
+1078. You hire Chiang, and the project has three programmers. 
+1079. Hire Chiang, and the project has three programmers.
+
+Negation (core) 
+Postauxiliary in finite clauses
+
+1080. Devito has not hired Abrams. 
+1081. Devito could not hire Abrams. 
+1082. Devito is not hiring Abrams. 
+1083. Devito could not have hired Abrams. 
+1084. Devito could not be hiring Abrams. 
+1085. Devito has not been interviewing programmers. 
+1086. Devito could not have been interviewing programmers. 
+1087. Devito did not hire Abrams. 
+1088. *Devito hired not Abrams. 
+1089. Devito is not a manager. 
+1090. Devito is not Abrams. 
+1091. There is not a programmer working for Abrams. 
+1092. Abrams need not hire Browne.
+
+(Compare with *Abrams need hire Browne.)
+
+1093. Abrams ought not to hire Browne. 
+1094. Abrams ought not hire Browne. 
+1095. Could Abrams not hire Browne? 
+1096. Has Abrams not hired Browne? 
+1097. Is Abrams not hiring Browne? 
+1098. Could Abrams not have been interviewing programmers? 
+1099. Did Abrams not hire Browne? 
+1100. Need Abrams not hire Browne? 
+1101. *Could not Abrams hire Browne? 
+1102. *Has not Abrams hired Browne? 
+1103. *Is not Abrams hiring Browne? 
+1104. *Did not Abrams hire Browne?
+
+Negative auxiliaries
+
+1105. Abrams cannot hire Browne. 
+1106. Abrams can't hire Browne. 
+1107. Abrams hasn't hired Browne. 
+1108. Abrams isn't hiring Browne. 
+1109. Abrams didn't hire Browne. 
+1110. *I aren't a consultant. 
+1111. Aren't I a consultant? 
+1112. Can't Abrams hire Browne? 
+1113. Hasn't Abrams hired Browne? 
+1114. Isn't Abrams hiring Browne? 
+1115. Didn't Abrams hire Browne? 
+1116. *I amn't a consultant. 
+1117. Abrams won't hire Browne. 
+1118. *Abrams willn't hire Browne.
+
+Predicate negation
+
+1119. Devito could have not hired Browne. 
+1120. Devito has been not interviewing programmers. 
+1121. Devito urged Abrams not to hire Browne. 
+1122. Devito urged Abrams to not hire Browne. 
+1123. Abrams couldn't not hire Browne. 
+1124. *Devito hired not Browne. 
+1125. *Devito hired a not competent programmer. 
+1126. *Not Devito hired Browne. 
+1127. *Devito appears not competent. 
+1128. Negative adverbials and auxiliary position 
+1129. Not one programmer did Chiang interview.
+
+Negation of quantified NP's
+
+1130. Not every manager interviewed programmers. 
+1131. Not many programmers were interviewed by Browne. 
+1132. *Programmers were interviewed by not every managers. 
+1133. *Browne interviewed not many programmers.
+
+Tense and aspect 
+Past, present, (future) tenses in combination with progressive and perfect aspect
+
+1134. He worked. 
+1135. He was working. 
+1136. He had worked. 
+1137. He had been working. 
+1138. He works. 
+1139. He is working. 
+1140. He has worked. 
+1141. He has been working. 
+1142. He will work. 
+1143. He will be working. 
+1144. He will have worked. 
+1145. He will have been working.
+
+Contractions
+
+1146. He'll work. 
+1147. He's working. 
+1148. When's he working? 
+1149. He's worked. 
+1150. He'd worked. (Compare with How often'll he work? When's he worked? etc., in spoken English.)
+
+Temporal adverbials (core) 
+Telic duration
+
+1151. Abrams will interview Browne in an hour.
+
+Atelic duration
+
+1152. Abrams has been interviewing Browne for an hour. 
+1153. Abrams will work for Browne for ever.
+
+Frequentative
+
+1154. Abrams interviews Browne often. 
+1155. Abrams interviewed Browne twice. 
+1156. Abrams interviews Browne three times a day.
+
+"Deadline"
+
+1157. Abrams will interview Browne by Monday. 
+1158. Abrams will interview Browne by Monday.
+
+Aspectual classes 
+Statives (core)
+
+1159. The manager knows that Abrams works for Browne. 
+1160. *The manager is knowing that Abrams works for Browne. 
+1161. Chiang is an employee. 
+1162. *Chiang is being an employee.
+
+Activities (core)
+
+1163. Browne manages the project. 
+1164. Abrams works on the project.
+
+Accomplishments (core)
+
+1165. Chiang evaluated Abrams.
+
+Achievements
+
+1166. Abrams hired a programmer.
+
+Temporal clauses, prepositions (core)
+
+1167. Abrams hired a programmer when Devito interviewed an engineer. 
+1168. Abrams hired a programmer until Devito interviewed an engineer. 
+1169. Abrams hired a programmer before Devito interviewed an engineer. 
+1170. Abrams hired a programmer as Devito interviewed an engineer. 
+1171. Abrams hired a programmer after Devito interviewed an engineer. 
+1172. Abrams hired a programmer as soon as Devito interviewed an engineer. 
+1173. Abrams hired a programmer whenever Devito interviewed an engineer. 
+1174. Abrams hired a programmer while Devito interviewed an engineer. 
+1175. Abrams hired a programmer until Devito's interview. 
+1176. Abrams hired a programmer before Devito's interview. 
+1177. Abrams hired a programmer after Devito's interview. 
+1178. Abrams hired a programmer during Devito's interview.
+
+Temporal deixis (core)
+
+1179. He promised that he would interview a programmer now. 
+1180. He promised that he would interview a programmer then.
+
+Temporal questions (core)
+
+1181. When did Abrams interview a programmer? 
+1182. How often does Abrams interview a programmer? 
+1183. How many hours was Abrams interviewing a programmer?
+
+Consecutio temporum (periphery)
+
+1184. She worked. 
+1185. She knew she had worked. 
+1186. He works. 
+1187. He knew he worked. 
+1188. She'll work. 
+1189. She knew she'd work.
+
+Aspectual complementation (core)
+
+1190. The managers finished working. 
+1191. *The managers finished to work. 
+1192. The managers ceased working. 
+1193. The managers ceased to work. 
+1194. The managers continued working. 
+1195. The managers continued to work.
+
+"Special" forms 
+Future (periphery)
+
+1196. Abrams is going to interview Browne. 
+1197. Past iterative 
+1198. The manager often used to interview programmers. 
+1199. The manager would often interview programmers.
+
+Semantic facts. 
+The imperfective inference (periphery)
+
+1200. He was working. (entails He worked.) 
+1201. He was evaluating a programmer. (does not entail He evaluated a programmer.)
+
+The restrictions between aspectual class and durational adverb (periphery)
+
+1202. *He hired a programmer for an hour. 
+1203. He hired a programmer in an hour. 
+1204. He worked for an hour. 
+1205. He worked in an hour. (specifies beginning, not duration)
+
+The possibility of multiple frame adverbials (core)
+
+1206. He finished at noon on Tuesday, July 15, 1986, before Abrams hired Browne.
+
+Iterative/noniterative readings (core)
+
+1207. He is interviewing programmers now. 
+1208. He is interviewing programmers often.
+
+The up-to-now reading of the Present Perfect (scope over duratives) (core)
+
+1209. He has worked for Abrams for several months.
+
+The irreal "before" (periphery)
+
+1210. Abrams will move bookcases before he will interview programmers.(in the sense of avoiding interviewing programmers)
+
+The modal sense of will (periphery)
+
+1211. He'll be interviewing programmers now.
+
+Interpretation of temporally sensitive nouns, adjectives, adverbs (periphery)
+
+1212. The manager at that time was Browne. 
+1213. The former manager was Chiang. 
+1214. The previously interviewed programmer was Abrams.
+
+Temporal interpretation of discourse (core)
+
+1215. Abrams was interviewed. 
+1216. Abrams was interviewed. 
+1217. He was hired.
+
+Predicative Adjuncts 
+Adjective phrases (periphery)
+
+1218. Both competent and trustworthy, Chiang will interview Devito. 
+1219. Both competent and trustworthy, Devito will be hired.
+
+Prepositional phrases (periphery)
+
+1220. Without a manager, no project has a consultant. 
+1221. Without an interview, no programmer is hired.
+
+Noun-Phrase (periphery)
+
+1222. A competent programmer, Devito works for Abrams. 
+1223. A competent programmer, Devito will be hired.
+
+Verb-Phrase (absolutive) (core)
+
+1224. Having interviewed three programmers, Devito hired Browne. 
+1225. Having been interviewed by three managers, Devito was hired. 
+1226. Hired without an interview, Devito became a manager.
+
+With subjects (periphery)
+
+1227. Its manager being an engineer, the project has no consultants. 
+1228. His project managed by Chiang, Devito works for an engineer.
+
+Postposed (core)
+
+1229. The manager worked after interviewing Browne. 
+1230. The manager interviewed Browne after working. 
+1231. The manager will hire a programmer after interviewing Browne. 
+1232. The manager showed an office to Browne after interviewing a programmer. 
+1233. The manager interviewed a programmer after showing an office to Browne. 
+1234. The manager will show Browne an office after interviewing a programmer. 
+1235. The manager will hire a programmer after showing Browne an office.
+
+Non-Subject controlled (periphery)
+
+1236. A consultant is evaluated by interviewing the manager.
+
+Speaker-Controlled (periphery)
+
+1237. Without knowing who interviewed him, it is hard to evaluate Devito.
+
+Arb-controlled (periphery)
+
+1238. Without interviewing them, it is hard to hire programmers.
+
+Purpose clauses (periphery)
+
+1239. Devito has Browne to interview.
+
+Rationale clauses, In-order-to (core)
+
+1240. Devito interviewed Browne to evaluate him 
+1241. Devito interviewed Browne in order to evaluate him. 
+1242. In order to evaluate him, Devito interviewed Browne. 
+1243. To evaluate him, Devito interviewed Browne.
+
+Result clauses (core)
+
+1244. The project hired so many programmers that it became a department.
+
+Parentheticals 
+Appositive relatives (core)
+
+1245. Chiang, who is the department manager, hires Devito. 
+1246. Chiang hired Devito, who is a programmer. 
+1247. Chiang hired Devito, which was known by Browne.
+
+Comma-bounded parentheticals (periphery)
+
+1248. Chiang, and she is competent, hired Devito.
+
+Dash-bounded parentheticals (periphery) 
+ 
+
+1249. Chiang - she's the manager of the department - hired Devito. 
+ 
+
+Direct quotations (periphery)
+
+1250. Chiang said, "I have interviewed Devito." 
+1251. Chiang said "I have interviewed Devito." 
