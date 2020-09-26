@@ -4,19 +4,56 @@
 
 Sententences came from
 
-1. Matrix
+** Matrix
 
-http://moin.delph-in.net/MatrixMrsTestSuiteEn
-http://moin.delph-in.net/MatrixMrsTestSuitePt
+- http://moin.delph-in.net/MatrixMrsTestSuiteEn
+- http://moin.delph-in.net/MatrixMrsTestSuitePt
 
-2. MRS
+** MRS
 
 http://svn.delph-in.net/erg/trunk/tsdb/gold/mrs/
 
 (file item.gz). This directory contains 'profiles' with golden
-HPSG/ERG analysis.
+HPSG/ERG analysis. MRS sentences are almost identical to the MATRIX
+with 7 differences:
 
-3. CSLI
+#+BEGIN_EXAMPLE
+% diff matrix-en.sent mrs-en.sent
+20c20
+< Cats bark.
+---
+> Cats go.
+22c22
+< Some bark.
+---
+> Some went.
+53c53
+< Chased dogs bark.
+---
+> Chased dogs go.
+55c55
+< That the cat chases Browne is old.
+---
+> That the cat chases Browne is obvious.
+62,64c62,64
+< Browne's barks.
+< Twenty three dogs bark.
+< Two hundred twenty dogs bark.
+---
+> Browne's goes.
+> Twenty three dogs go.
+> Two hundred twenty dogs go.
+79c79
+< Abrams promised Browne to bark.
+---
+> Abrams promised Browne to go.
+97c97
+< The cats found a way to bark.
+---
+> The cats found a way to go.
+#+END_EXAMPLE
+
+** CSLI
 
 http://svn.delph-in.net/erg/trunk/tsdb/gold/csli/
 
@@ -34,7 +71,7 @@ all processed with [[http://lindat.mff.cuni.cz/services/udpipe/][udpipe]] using 
 portuguese-bosque-ud-2.5-191206.udpipe and
 english-ewt-ud-2.5-191206.udpipe models.
 
-: udpipe --tokenize --tag --parse $UDP/portuguese-bosque-ud-2.5-191206.udpipe matrix-pt.sent > matrix-pt.conllu
+: udpipe --tokenize --tag --parse MODEL FILE.sent > FILE.conllu
 
 * plans
 
