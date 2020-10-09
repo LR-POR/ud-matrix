@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>107</sentences><tokens>668</tokens><words>699</words><fused>31</fused></total>
+  </size>
+  <lemmas unique="118" /><!-- o, ., latir, Bobi, atlas, cachorro, de, gato, que, chegar, a, cão, perseguir, estar, ter -->
+  <forms unique="143" /><!-- o, ., Atlas, Bobi, cachorro, latiu, a, de, que, gato, chegou, latir, está, e, latem -->
+  <fusions unique="12" /><!-- do, ao, no, dos, pelo, perguntou-se, à, às, da, das, na, perseguiu-o -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">13</tag><!-- velho, Bobi, cinco, contente, feliz, latidor, latir, óbvio -->
+    <tag name="ADP">38</tag><!-- de, a, em, para, por, bem, com -->
+    <tag name="ADV">12</tag><!-- não, agora, atrás, completamente, latem, mais, mesmo, muito, provavelmente, quase -->
+    <tag name="AUX">23</tag><!-- estar, ter, ser, ir -->
+    <tag name="CCONJ">7</tag><!-- e -->
+    <tag name="DET">155</tag><!-- o, cada, meu, todo, um, algum, aquele, nenhum, que -->
+    <tag name="NOUN">96</tag><!-- cachorro, gato, cão, jardim, cigarro, baixinho, bobagem, força, late, tabaco -->
+    <tag name="NUM">11</tag><!-- três, vinte, dez, Duzento -->
+    <tag name="PRON">17</tag><!-- que, algum, alguém, ele, se, isso, quem, si, três, tudo -->
+    <tag name="PROPN">68</tag><!-- Bobi, atlas, Atle, poder -->
+    <tag name="PUNCT">110</tag><!-- ., ?, ,, ! -->
+    <tag name="SCONJ">21</tag><!-- que, de, se, a, para, quando, quanto -->
+    <tag name="VERB">128</tag><!-- latir, chegar, perseguir, seguir, later, latindo, incomodar, chover, ladrar, poder -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="32">
+    <feat name="Case" value="Acc" upos="PRON">3</feat><!-- se, o -->
+    <feat name="Case" value="Nom" upos="PRON">2</feat><!-- Ele, Três -->
+    <feat name="Definite" value="Def" upos="DET">141</feat><!-- o, a, os, as -->
+    <feat name="Definite" value="Ind" upos="DET">2</feat><!-- um, uma -->
+    <feat name="Gender" value="Fem" upos="DET,NOUN">24</feat><!-- a, as, bobagem, força, foto, ideia, janela, maneira, manhã, mesa -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">325</feat><!-- o, Atlas, Bobi, cachorro, gato, os, cão, gatos, jardim, cães -->
+    <feat name="Gender" value="Unsp" upos="PRON">2</feat><!-- Três, se -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">116</feat><!-- latiu, chegou, está, tinha, latem, perseguiu, podia, seguiu, é, abriu -->
+    <feat name="Mood" value="Sub" upos="VERB">2</feat><!-- ladrasse, perseguisse -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON,VERB">45</feat><!-- os, gatos, latem, cães, as, Alguns, chegaram, todos, Cachorros, Que -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">427</feat><!-- o, Atlas, Bobi, cachorro, latiu, gato, chegou, a, está, tinha -->
+    <feat name="NumType" value="Card" upos="NUM">11</feat><!-- três, vinte, dez, Duzentos -->
+    <feat name="NumType" value="Ord" upos="ADJ">2</feat><!-- Bobi -->
+    <feat name="Person" value="1" upos="VERB">1</feat><!-- temos -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">125</feat><!-- latiu, chegou, está, tinha, latem, perseguiu, podia, seguiu, é, abriu -->
+    <feat name="Polarity" value="Neg" upos="ADV">3</feat><!-- não -->
+    <feat name="PronType" value="Art" upos="DET">143</feat><!-- o, a, os, as, um, uma -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">5</feat><!-- o, Aquele, Isso, que -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">5</feat><!-- Alguns, alguém, algum -->
+    <feat name="PronType" value="Int" upos="DET">1</feat><!-- Que -->
+    <feat name="PronType" value="Neg" upos="DET">1</feat><!-- Nenhum -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">8</feat><!-- meu, se, Ele, Três, o, si -->
+    <feat name="PronType" value="Rel" upos="PRON">5</feat><!-- que, quem, tudo -->
+    <feat name="PronType" value="Tot" upos="DET">4</feat><!-- Cada, todos -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">20</feat><!-- tinha, podia, estava, incomodava, continuava, ladrasse, perseguisse, pretendia, queria, sabia -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">63</feat><!-- latiu, chegou, perseguiu, seguiu, abriu, enfiou, passou, perguntou, Choveu, apostou -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">33</feat><!-- está, latem, é, parece, vai, Segue, acredita, considera, incomoda, ladra -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">118</feat><!-- latiu, chegou, está, tinha, latem, perseguiu, podia, seguiu, é, abriu -->
+    <feat name="VerbForm" value="Ger" upos="VERB">7</feat><!-- latindo -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">16</feat><!-- latir, chegar, Perseguir, fazer, ladrar, seguir, ter -->
+    <feat name="VerbForm" value="Part" upos="VERB">10</feat><!-- latido, chovido, seguido, perseguidos -->
+    <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- seguido -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="29">
+    <dep name="acl">7</dep>
+    <dep name="acl:relcl">3</dep>
+    <dep name="advmod">12</dep>
+    <dep name="amod">8</dep>
+    <dep name="aux">15</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">38</dep>
+    <dep name="cc">7</dep>
+    <dep name="ccomp">10</dep>
+    <dep name="conj">8</dep>
+    <dep name="cop">7</dep>
+    <dep name="csubj">2</dep>
+    <dep name="det">153</dep>
+    <dep name="expl">2</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat:name">1</dep>
+    <dep name="iobj">3</dep>
+    <dep name="mark">20</dep>
+    <dep name="nmod">14</dep>
+    <dep name="nsubj">107</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="nummod">3</dep>
+    <dep name="obj">33</dep>
+    <dep name="obl">11</dep>
+    <dep name="obl:agent">2</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">110</dep>
+    <dep name="root">107</dep>
+    <dep name="xcomp">11</dep>
+  </deps>
+</treebank>
