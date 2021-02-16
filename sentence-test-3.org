@@ -1,0 +1,62 @@
+
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=The+plan+that+was+just+agreed+upon+has+been+changed.#
+
+SENT: The plan that was just agreed upon has been changed .
+
+#+BEGIN_EXAMPLE
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < 
+ [ _the_q<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + PT: pt ] RSTR: h5 BODY: h6 ]
+ [ _plan_n_1<4:8> LBL: h7 ARG0: x3 ]
+ [ _just_x_deg<18:22> LBL: h7 ARG0: e8 ... ARG1: e9 ... ]
+ [ _agree_v_on<23:29> LBL: h7 ARG0: e9 ARG1: i10 ARG2: x3 ]
+ [ _change_v_cause<44:51> LBL: h1 ARG0: e2 ARG1: i11 ARG2: x3 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 >
+ICONS: < e9 topic x3 e2 topic x3 > ] ;  
+
+(6039 sb-hd_mc_c 18.967962 0 11 (5940 sp-hd_n_c 9.639700 0 7 (480 the_1 -0.353976 0 1 ("the" 208 ...))
+				      (5930 hdn-aj_rc_c 8.792377 1 7
+					    (5897 n_sg_ilr 0.169844 1 2 (318 plan_n1 -0.093396 1 2 ("plan" 192 ...)))
+					    (5928 flr-hd_rel-fin_c 8.909271 2 7
+						  (5898 hdn_bnp-qnt_c 1.199793 2 3 (332 that_r 0.301452 2 3
+											("that" 194 ...)))
+						  (5919 hd_xsb-fin_c 6.456994 3 7 (5916 hd-cmp_u_c 5.185305 3 7
+											(366 be_c_was 2.014455 3 4 ("was" 196 ...))
+											(5915 sp-hd_hc_c 2.162386 4 7
+											      (391 just_m_deg 1.474004 4 5
+												   ("just" 198 ...))
+											      (5914 hd_optcmp_c -0.317096 5 7
+												    (5913 hd-cmp_u_c -0.774439 5 7
+													  (5912 v_pas-p_odlr -0.038941 5 6
+														(405 agree_on_v1 -0.003280 5 6 ("agreed" 200 ...)))
+													  (419 upon_prtcl -0.263757 6 7 ("upon" 202 ...))))))))))
+      (6038 hd-cmp_u_c 7.245134 7 11 (424 has_aux 3.964444 7 8 ("has" 204 ...))
+	    (6037 hd-cmp_u_c 2.881874 8 11 (469 be_c_been 2.242785 8 9 ("been" 206 ...))
+		  (6036 hd_optcmp_c 0.243121 9 11
+			(6035 hd-pct_c -1.003037 9 11 (6034 v_pas_odlr -1.003037 9 10
+							    (487 change_v1 -0.171519 9 10 ("changed" 210 ...)))
+							(309 period_pct 0.000000 10 11 ("." 190 ...)))))))
+
+
+Action
+ _agree_v_on 
+ _change_v_cause
+
+Role
+ change arg2 : x3
+ agree arg2 : x3
+
+Context
+  _just_x_deg arg1 :e9 (agree_v)
+
+
+NounPhrase
+ sp-hd_n_c
+
+RelativeClause
+ flr-hd_rel-fin_c
+
+#+END_EXAMPLE
+
+EESP annotate `that` as A0 but ERG semantic output omits `that` makes A0 the `plan`. 

@@ -1,0 +1,55 @@
+
+http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=This+is+a+big+red+balloon.#
+http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/?lang=en&input=This+is+a+big+red+balloon.#
+
+SENT: This is a big red balloon .
+
+#+BEGIN_EXAMPLE
+
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ _this_q_dem<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ _be_v_id<5:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg IND: + PT: pt ] ]
+ [ _a_q<8:9> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ _big_a_1<10:13> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x8 ]
+ [ _red_a_1<14:17> LBL: h12 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: bool PERF: - ] ARG1: x8 ]
+ [ _balloon_n_1<18:25> LBL: h12 ARG0: x8 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 >
+ICONS: < > ] ;  
+
+(2494 sb-hd_mc_c 6.867920 0 7 (2487 hdn_bnp-qnt_c 2.228359 0 1
+				    (2486 hdn_optcmp_c 1.849565 0 1 (243 this_deix 0.595726 0 1
+									 ("this" 135 ...))))
+      (2493 hd-cmp_u_c 3.073669 1 7 (180 be_id_is 2.022633 1 2 ("is" 127 ...))
+	    (2492 sp-hd_n_c 0.511682 2 7 (210 a_det -0.002109 2 3 ("a" 129 ...))
+		  (2491 aj-hdn_adjn_c -0.553115 3 7 (224 big_a1 -1.769717 3 4 ("big" 131 ...))
+			(2490 aj-hdn_norm_c 0.384790 4 7 (227 red_a1 -0.225460 4 5 ("red" 133 ...))
+			      (2489 hd-pct_c 0.610250 5 7
+				    (2488 n_sg_ilr 0.610250 5 6 (252 balloon_n1 0.000000 5 6
+								     ("balloon" 137 ...)))
+				    (170 period_pct 0.000000 6 7 ("." 125 ...))))))))
+
+
+Action 
+ _be_v_id: 5:7
+ 
+Role
+ arg1: x3 /this
+ arg2: x8 /balloon
+ 
+
+NounPhrase
+  hdn_bnp-qnt_c
+  sp-hd_n_c
+
+Adjective
+  _big_a_1 e13
+  _red_a_1 314
+
+#+END_EXAMPLE
+
+ERG analisys and http://verbs.colorado.edu/propbank/framesets-english-aliases/be.html diverge:
+
+1. propbank has the be.02 sense (existing) with only ARG1
+1. ERG predicate be_id_is is unique for `A is B` or `there is A.`

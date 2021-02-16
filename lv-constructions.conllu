@@ -1,0 +1,125 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0011
+# text = Launching this way will hopefully avoid future disasters, giving more support towards NASA revisiting the stars.
+1	Launching	launch	VERB	VBG	VerbForm=Ger	6	csubj	6:csubj	_	launch.01	V	_	ARG0	_	ARG0	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	3:det	_	_	_	_	_	_	_	_
+3	way	way	NOUN	NN	Number=Sing	1	obj	1:obj	_	way.01	ARGM-MNR	V	_	_	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	6:aux	_	_	_	_	ARGM-MOD	_	_	_
+5	hopefully	hopefully	ADV	RB	_	6	advmod	6:advmod	_	_	_	_	ARGM-ADV	_	_	_
+6	avoid	avoid	VERB	VB	VerbForm=Inf	0	root	0:root	_	avoid.01	_	_	V	_	_	_
+7	future	future	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	_	_	_	_	_	_
+8	disasters	disaster	NOUN	NNS	Number=Plur	6	obj	6:obj	SpaceAfter=No	_	_	_	ARG1	_	_	_
+9	,	,	PUNCT	,	_	6	punct	6:punct	_	_	_	_	_	_	_	_
+10	giving	give	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	_	give.LV	_	_	ARGM-ADV	V	ARGM-LVB	_
+11	more	more	ADJ	JJR	Degree=Cmp	12	amod	12:amod	_	_	_	_	_	_	ARGM-EXT	_
+12	support	support	NOUN	NN	Number=Sing	10	obj	10:obj	_	support.01	_	_	_	ARGM-PRR	V	_
+13	towards	towards	SCONJ	IN	_	15	mark	15:mark	_	_	_	_	_	_	_	_
+14	NASA	NASA	PROPN	NNP	Number=Sing	15	nsubj	15:nsubj	_	_	_	_	_	_	_	ARG0
+15	revisiting	revisit	VERB	VBG	VerbForm=Ger	12	acl	12:acl:towards	_	revisit.01	_	_	_	_	ARG1	V
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	_	_	_	_	_	_	_	_
+17	stars	star	NOUN	NNS	Number=Plur	15	obj	15:obj	SpaceAfter=No	_	_	_	_	_	_	ARG1
+18	.	.	PUNCT	.	_	6	punct	6:punct	_	_	_	_	_	_	_	_
+
+# sent_id = weblog-blogspot.com_floppingaces_20041126180010_ENG_20041126_180010-0004
+# text = He makes some good observations on a few of the pic's.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	_	ARG0
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	make.LV	V	ARGM-LVB
+3	some	some	DET	DT	_	5	det	5:det	_	_	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	5:amod	_	_	_	ARGM-ADJ
+5	observations	observation	NOUN	NNS	Number=Plur	2	obj	2:obj	_	observe.01	ARGM-PRR	V
+6	on	on	ADP	IN	_	8	case	8:case	_	_	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	_	_	_	_
+8	few	few	ADJ	JJ	Degree=Pos	5	nmod	5:nmod:on	_	_	_	ARG1
+9	of	of	ADP	IN	_	11	case	11:case	_	_	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_	_	_	_
+11	pic's	pic'	NOUN	NNS	Number=Plur	8	obl	8:obl:of	SpaceAfter=No	_	_	_
+12	.	.	PUNCT	.	_	2	punct	2:punct	_	_	_	_
+
+# sent_id = weblog-blogspot.com_grandpasgripes_20060413051000_ENG_20060413_051000-0016
+# text = It does seem that Iranians frequently make statements and then hide behind lack of proof.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	3:expl	_	_	_	_	_	_	_	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_	do.01	V	_	_	_	_	_	_
+3	seem	seem	VERB	VB	VerbForm=Inf	0	root	0:root	_	seem.01	_	V	_	_	_	_	_
+4	that	that	SCONJ	IN	_	7	mark	7:mark	_	_	_	_	_	_	_	_	_
+5	Iranians	Iranians	PROPN	NNPS	Number=Plur	7	nsubj	7:nsubj|11:nsubj	_	_	_	_	_	ARG0	ARG0	_	_
+6	frequently	frequently	ADV	RB	_	7	advmod	7:advmod	_	_	_	_	_	ARGM-TMP	ARGM-TMP	_	_
+7	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_	make.LV	_	ARG1	V	ARGM-LVB	_	_	_
+8	statements	statement	NOUN	NNS	Number=Plur	7	obj	7:obj	_	state.01	_	_	ARGM-PRR	V	_	_	_
+9	and	and	CCONJ	CC	_	11	cc	11:cc	_	_	_	_	_	_	_	_	_
+10	then	then	ADV	RB	PronType=Dem	11	advmod	11:advmod	_	_	_	_	_	_	ARGM-TMP	_	_
+11	hide	hide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	3:ccomp|7:conj:and	_	hide.01	_	_	_	_	V	_	_
+12	behind	behind	ADP	IN	_	13	case	13:case	_	_	_	_	_	_	_	_	_
+13	lack	lack	NOUN	NN	Number=Sing	11	obl	11:obl:behind	_	lack.01	_	_	_	_	ARGM-LOC	V	_
+14	of	of	ADP	IN	_	15	case	15:case	_	_	_	_	_	_	_	_	_
+15	proof	proof	NOUN	NN	Number=Sing	13	nmod	13:nmod:of	SpaceAfter=No	prove.01	_	_	_	_	_	ARG1	V
+16	.	.	PUNCT	.	_	3	punct	3:punct	_	_	_	_	_	_	_	_	_
+
+# sent_id = weblog-blogspot.com_marketview_20060625150800_ENG_20060625_150800-0013
+# text = He mentions his wife's death having an effect on him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	ARG0	_	_	_
+2	mentions	mention	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	mention.01	V	_	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	_	_	_	_	_	_
+4	wife	wife	NOUN	NN	Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No	_	_	ARG1	_	_
+5	's	's	PART	POS	_	4	case	4:case	_	_	_	_	_	_
+6	death	death	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	_	die.01	_	V	_	ARG0
+7	having	have	VERB	VBG	VerbForm=Ger	2	ccomp	2:ccomp	_	have.LV	ARG1	_	V	ARGM-LVB
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	9:det	_	_	_	_	_	_
+9	effect	effect	NOUN	NN	Number=Sing	7	obj	7:obj	_	affect.01	_	_	ARGM-PRR	V
+10	on	on	ADP	IN	_	11	case	11:case	_	_	_	_	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	9:nmod:on	SpaceAfter=No	_	_	_	_	ARG1
+12	.	.	PUNCT	.	_	2	punct	2:punct	_	_	_	_	_	_
+
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0032
+# text = But in fall of 1999, Gen. Pervez Musharraf made a coup against Nawaz Sharif.
+1	But	but	CCONJ	CC	_	10	cc	10:cc	_	_	_	ARGM-DIS
+2	in	in	ADP	IN	_	3	case	3:case	_	_	_	_
+3	fall	fall	NOUN	NN	Number=Sing	10	obl	10:obl:in	_	_	_	ARGM-TMP
+4	of	of	ADP	IN	_	5	case	5:case	_	_	_	_
+5	1999	1999	NUM	CD	NumType=Card	3	nmod	3:nmod:of	SpaceAfter=No	_	_	_
+6	,	,	PUNCT	,	_	10	punct	10:punct	_	_	_	_
+7	Gen.	Gen.	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj	_	_	_	ARG0
+8	Pervez	Pervez	PROPN	NNP	Number=Sing	7	flat	7:flat	_	_	_	_
+9	Musharraf	Musharraf	PROPN	NNP	Number=Sing	7	flat	7:flat	_	_	_	_
+10	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	make.LV	V	ARGM-LVB
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	_	_	_	_
+12	coup	coup	NOUN	NN	Number=Sing	10	obj	10:obj	_	coup.01	ARGM-PRR	V
+13	against	against	ADP	IN	_	14	case	14:case	_	_	_	_
+14	Nawaz	Nawaz	PROPN	NNP	Number=Sing	12	nmod	12:nmod:against	_	_	_	ARG1
+15	Sharif	Sharif	PROPN	NNP	Number=Sing	14	flat	14:flat	SpaceAfter=No	_	_	_
+16	.	.	PUNCT	.	_	10	punct	10:punct	_	_	_	_
+
+# sent_id = email-enronsent23_07-0005
+# text = i had a blast that night.
+1	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_	_	_	ARG0
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	have.LV	V	ARGM-LVB
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_	_	_	_
+4	blast	blast	NOUN	NN	Number=Sing	2	obj	2:obj	_	blast.07	ARGM-PRR	V
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	_	_	_	_
+6	night	night	NOUN	NN	Number=Sing	2	obl:tmod	2:obl:tmod	SpaceAfter=No	_	_	ARGM-TMP
+7	.	.	PUNCT	.	_	2	punct	2:punct	_	_	_	_
+
+# sent_id = email-enronsent32_02-0029
+# text = Tracy, Do we have concerns here.
+1	Tracy	Tracy	PROPN	NNP	Number=Sing	5	vocative	5:vocative	SpaceAfter=No	_	_	_	ARGM-DIS
+2	,	,	PUNCT	,	_	5	punct	5:punct	_	_	_	_	_
+3	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	do.01	V	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	_	_	_	_	ARG1
+5	have	have	VERB	VB	VerbForm=Inf	0	root	0:root	_	have.LV	_	V	ARGM-LVB
+6	concerns	concern	NOUN	NNS	Number=Plur	5	obj	5:obj	_	concern.01	_	ARGM-PRR	V
+7	here	here	ADV	RB	PronType=Dem	5	advmod	5:advmod	SpaceAfter=No	_	_	_	ARGM-LOC
+8	.	.	PUNCT	.	_	5	punct	5:punct	_	_	_	_	_
+
+# sent_id = email-enronsent28_02-0006
+# text = He gave no indication on the value of the highest bid.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	_	_	ARG0	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	give.LV	V	ARGM-LVB	_
+3	no	no	DET	DT	_	4	det	4:det	_	_	_	ARGM-NEG	_
+4	indication	indication	NOUN	NN	Number=Sing	2	obj	2:obj	_	indicate.01	ARGM-PRR	V	_
+5	on	on	ADP	IN	_	7	case	7:case	_	_	_	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	_	_	_	_	_
+7	value	value	NOUN	NN	Number=Sing	4	nmod	4:nmod:on	_	_	_	ARG1	_
+8	of	of	ADP	IN	_	11	case	11:case	_	_	_	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_	_	_	_	_
+10	highest	highest	ADJ	JJS	Degree=Sup	11	amod	11:amod	_	_	_	_	ARGM-ADJ
+11	bid	bid	NOUN	NN	Number=Sing	7	nmod	7:nmod:of	SpaceAfter=No	bid.01	_	_	V
+12	.	.	PUNCT	.	_	2	punct	2:punct	_	_	_	_	_
+
