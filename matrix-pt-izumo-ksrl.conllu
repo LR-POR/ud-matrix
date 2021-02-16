@@ -1,0 +1,889 @@
+# 0 # Choveu.
+1	Choveu	chover	VERB	VERB	_	0	root	_	_
+2	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 1 # O Atlas ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 2 # A janela abriu-se.
+1	A	o	DET	DET	_	2	det	_	_	_
+2	janela	janela	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	abriu	abrir	VERB	VERB	_	0	root	Y	open_up.03	_
+4	-se	ele	PRON	PRON	_	3	obj	_	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 3 # O Atlas perseguiu o Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obj	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 4 # O Atlas passou o cigarro ao Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	passou	passar	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	cigarro	cigarro	NOUN	NOUN	_	3	obj	_	_
+6	ao	ao	ADP	ADP	_	7	case	_	_
+7	Bobi	Bobi	PROPN	PROPN	_	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 5 # O Atlas passou ao Bobi o cigarro.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	passou	passar	VERB	VERB	_	0	root	Y	pass.03	_
+4	ao	ao	ADP	ADP	_	5	case	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obl	_	_	_
+6	o	o	DET	DET	_	7	det	_	_	_
+7	cigarro	cigarro	NOUN	NOUN	_	5	obj	_	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 6 # O Atlas apostou um cigarro com o Bobi em como choveu.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	apostou	apostar	VERB	VERB	_	0	root	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	cigarro	cigarro	NOUN	NOUN	_	3	obj	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
+8	Bobi	Bobi	PROPN	PROPN	_	5	nmod	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	como	como	ADV	ADV	_	11	advmod	_	_
+11	choveu	chover	VERB	VERB	_	3	xcomp	_	_
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 7 # O Atlas sabia que choveu.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	sabia	saber	VERB	VERB	_	0	root	Y	know.01	_
+4	que	que	ADP	ADP	_	5	mark	_	_	_
+5	choveu	chover	VERB	VERB	_	3	ccomp	_	_	A1
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 8 # O Atlas tinha a intenção de ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	tinha	ter	VERB	VERB	_	0	root	Y	have.03	_
+4	a	o	DET	DET	_	5	det	_	_	_
+5	intenção	intenção	NOUN	NOUN	_	3	obj	_	_	_
+6	de	de	ADP	ADP	_	7	case	_	_	_
+7	ladrar	ladrar	VERB	VERB	_	5	xcomp	_	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 9 # O Atlas queria que o Bobi ladrasse.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	queria	querer	VERB	VERB	_	0	root	Y	want.01	_
+4	que	que	SCONJ	SCONJ	_	7	mark	_	_	_
+5	o	o	DET	DET	_	6	det	_	_	_
+6	Bobi	Bobi	PROPN	PROPN	_	7	nsubj	_	_	_
+7	ladrasse	ladrar	VERB	VERB	_	3	ccomp	_	_	A1
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 10 # Todos os gatos ladraram.
+1	Todos	todo	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	gatos	gato	NOUN	NOUN	_	4	nsubj	_	_
+4	ladraram	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 11 # Todos os gatos perseguiram algum cão.
+1	Todos	todo	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	gatos	gato	NOUN	NOUN	_	4	nsubj	_	_
+4	perseguiram	perseguir	VERB	VERB	_	0	root	_	_
+5	algum	algum	DET	DET	_	6	det	_	_
+6	cão	cão	NOUN	NOUN	_	4	obj	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 12 # O meu gato ladrou.
+1	O	o	DET	DET	_	3	det	_	_
+2	meu	meu	DET	DET	_	3	det	_	_
+3	gato	gato	NOUN	NOUN	_	4	nsubj	_	_
+4	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 13 # Ladrou.
+1	Ladrou	ladrar	VERB	VERB	_	0	root	_	_
+2	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 14 # O gato perseguiu-o.
+1	O	o	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+4	-o	o	DET	DET	_	3	obj	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 15 # O gato perseguiu-se.
+1	O	o	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+4	-se	ele	PRON	PRON	_	3	obj	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 16 # O gato perseguiu um.
+1	O	o	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+4	um	um	DET	DET	_	3	obj	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 17 # O meu ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	meu	meu	PRON	PRON	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 18 # Isso abriu-se.
+1	Isso	esse	PRON	PRON	_	2	nsubj	_	_	A0
+2	abriu	abrir	VERB	VERB	_	0	root	Y	open_up.03	_
+3	-se	ele	PRON	PRON	_	2	obj	_	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
+
+# 19 # Os gatos ladram.
+1	Os	o	DET	DET	_	2	det	_	_
+2	gatos	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	ladram	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 20 # Chegou tabaco.
+1	Chegou	chegar	VERB	VERB	_	0	root	_	_
+2	tabaco	tabaco	NOUN	NOUN	_	1	obj	_	_
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 21 # Alguns ladram.
+1	Alguns	algum	PRON	PRON	_	2	nsubj	_	_
+2	ladram	ladrar	VERB	VERB	_	0	root	_	_
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# 22 # Alguns dos gatos ladram.
+1	Alguns	algum	PRON	PRON	_	0	root	_	_
+2	dos	do	ADP	ADP	_	3	case	_	_
+3	gatos	gato	NOUN	NOUN	_	1	nmod	_	_
+4	ladram	ladrar	VERB	VERB	_	3	acl	_	_
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 23 # Nenhum gato ladrou.
+1	Nenhum	nenhum	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 24 # O cão ladrou?
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# 25 # Que cão ladrou?
+1	Que	que	ADP	ADP	_	3	mark	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# 26 # Ladrou o cão de quem?
+1	Ladrou	ladrar	VERB	VERB	_	0	root	_	_
+2	o	o	DET	DET	_	3	det	_	_
+3	cão	cão	NOUN	NOUN	_	1	obj	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	quem	quem	PRON	PRON	_	3	nmod	_	_
+6	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# 27 # Persegue o Bobi!
+1	Persegue	perseguir	VERB	VERB	_	0	root	_	_
+2	o	o	DET	DET	_	3	det	_	_
+3	Bobi	Bobi	PROPN	PROPN	_	1	obj	_	_
+4	!	!	PUNCT	PUNCT	_	1	punct	_	_
+
+# 28 # O Atlas perguntou-se que cão ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	perguntou	perguntar	VERB	VERB	_	0	root	_	_
+4	-se	ele	PRON	PRON	_	3	obj	_	_
+5	que	que	ADP	ADP	_	7	mark	_	_
+6	cão	cão	NOUN	NOUN	_	7	nsubj	_	_
+7	ladrou	ladrar	VERB	VERB	_	4	acl	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 29 # O Atlas perguntou-se se o Bobi ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	perguntou	perguntar	VERB	VERB	_	0	root	_	_
+4	-se	ele	PRON	PRON	_	3	obj	_	_
+5	se	se	ADP	ADP	_	8	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
+7	Bobi	Bobi	PROPN	PROPN	_	8	nsubj	_	_
+8	ladrou	ladrar	VERB	VERB	_	4	acl	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 30 # O cão que o Bobi perseguiu ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	7	nsubj	_	_
+3	que	que	SCONJ	SCONJ	_	7	mark	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	7	nsubj	_	_
+6	perseguiu	perseguir	VERB	VERB	_	7	aux	_	_
+7	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# 31 # O cão a perseguir está a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_	_
+3	a	a	ADP	ADP	_	4	case	_	_	_
+4	perseguir	perseguir	VERB	VERB	_	0	root	_	_	_
+5	está	estar	VERB	VERB	_	4	obj	Y	be.01	_
+6	a	a	ADP	ADP	_	7	case	_	_	_
+7	ladrar	ladrar	VERB	VERB	_	5	xcomp	_	_	_
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
+
+# 32 # O cão foi perseguido pelo Bobi.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_	A0
+3	foi	ir	AUX	AUX	_	4	aux	_	_	_
+4	perseguido	perseguir	VERB	VERB	_	0	root	Y	chase.01	_
+5	pelo	pelo	ADP	ADP	_	6	case	_	_	_
+6	Bobi	Bobi	PROPN	PROPN	_	4	obl	_	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
+
+# 33 # O cão perseguido pelo Bobi ladrou.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	perseguido	perseguir	VERB	VERB	_	0	root	Y	chase.01	_
+4	pelo	pelo	ADP	ADP	_	5	case	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obl	_	_	_
+6	ladrou	ladrar	VERB	VERB	_	5	acl	_	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 34 # O cão está a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	está	estar	VERB	VERB	_	0	root	Y	be.01	_
+4	a	a	ADP	ADP	_	5	case	_	_	_
+5	ladrar	ladrar	VERB	VERB	_	3	xcomp	_	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 35 # O cão ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 36 # O cão tem estado a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	tem	ter	VERB	VERB	_	0	root	Y	have.03	_
+4	estado	estado	NOUN	NOUN	_	3	obj	_	_	_
+5	a	a	ADP	ADP	_	6	case	_	_	_
+6	ladrar	ladrar	VERB	VERB	_	4	xcomp	_	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 37 # O cão tinha estado a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	tinha	ter	VERB	VERB	_	0	root	Y	have.03	_
+4	estado	estado	NOUN	NOUN	_	3	obj	_	_	_
+5	a	a	ADP	ADP	_	6	case	_	_	_
+6	ladrar	ladrar	VERB	VERB	_	4	xcomp	_	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 38 # O cão ladrará.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrará	ladrar	VERB	VERB	_	0	root	_	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 39 # O cão vai ladrar.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	vai	ir	AUX	AUX	_	4	aux	_	_
+4	ladrar	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 40 # O cão conseguiu ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	conseguiu	conseguir	VERB	VERB	_	0	root	Y	manage.02	_
+4	ladrar	ladrar	VERB	VERB	_	3	xcomp	_	_	A1
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 41 # O cão não conseguiu ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_	A0
+3	não	não	ADV	ADV	_	4	advmod	_	_	AM-ADV
+4	conseguiu	conseguir	VERB	VERB	_	0	root	Y	manage.02	_
+5	ladrar	ladrar	VERB	VERB	_	4	xcomp	_	_	A1
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
+
+# 42 # O cão velho ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	velho	velho	ADJ	ADJ	_	2	amod	_	_
+4	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 43 # O cão ladrou baixinho.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	baixinho	baixinho	ADV	ADV	_	3	advmod	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 44 # O cão provavelmente ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	provavelmente	provavelmente	ADV	ADV	_	4	advmod	_	_
+4	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 45 # O cão ladrou no jardim.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	no	no	DET	DET	_	5	det	_	_
+5	jardim	jardim	NOUN	NOUN	_	3	obj	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 46 # O cão agora ladra.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	agora	agora	ADV	ADV	_	4	advmod	_	_
+4	ladra	ladro	ADJ	ADJ	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 47 # O cão do jardim ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	5	nsubj	_	_
+3	do	do	ADP	ADP	_	4	case	_	_
+4	jardim	jardim	NOUN	NOUN	_	2	nmod	_	_
+5	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# 48 # O cão do jardim do tabaco ladrou.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	7	nsubj	_	_
+3	do	do	ADP	ADP	_	4	case	_	_
+4	jardim	jardim	NOUN	NOUN	_	2	nmod	_	_
+5	do	do	ADP	ADP	_	6	case	_	_
+6	tabaco	tabaco	NOUN	NOUN	_	4	nmod	_	_
+7	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# 49 # O gato é velho.
+1	O	o	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	4	nsubj	_	_
+3	é	ser	AUX	AUX	_	4	cop	_	_
+4	velho	velho	ADJ	ADJ	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 50 # O gato está no jardim.
+1	O	o	DET	DET	_	2	det	_	_
+2	gato	gato	NOUN	NOUN	_	4	nsubj	_	_
+3	está	estar	AUX	AUX	_	4	cop	_	_
+4	no	no	ADJ	ADJ	_	0	root	_	_
+5	jardim	jardim	NOUN	NOUN	_	4	obj	_	_
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 51 # O cão que está a ladrar perseguiu o Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	que	que	PRON	PRON	_	4	obj	_	_
+4	está	estar	VERB	VERB	_	0	root	_	_
+5	a	a	ADP	ADP	_	6	mark	_	_
+6	ladrar	ladrar	VERB	VERB	_	4	xcomp	_	_
+7	perseguiu	perseguir	VERB	VERB	_	6	xcomp	_	_
+8	o	o	DET	DET	_	9	det	_	_
+9	Bobi	Bobi	PROPN	PROPN	_	7	obj	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 52 # Os cães perseguidos ladram.
+1	Os	o	DET	DET	_	2	det	_	_
+2	cães	cão	NOUN	NOUN	_	4	nsubj	_	_
+3	perseguidos	perseguido	ADJ	ADJ	_	2	amod	_	_
+4	ladram	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 53 # Perseguir o gato está batido.
+1	Perseguir	perseguir	VERB	VERB	_	0	root	_	_	_
+2	o	o	DET	DET	_	3	det	_	_	_
+3	gato	gato	NOUN	NOUN	_	1	obj	_	_	_
+4	está	estar	AUX	AUX	_	5	aux	_	_	_
+5	batido	bater	VERB	VERB	_	1	advcl	Y	hit.01	_
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_	_
+
+# 54 # O gato perseguir o Bobi está batido.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	gato	gato	NOUN	NOUN	_	3	nsubj	_	_	_
+3	perseguir	perseguir	VERB	VERB	_	0	root	_	_	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obj	_	_	_
+6	está	estar	AUX	AUX	_	7	aux	_	_	_
+7	batido	bater	VERB	VERB	_	3	advcl	Y	hit.01	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 55 # Os cães perseguem tudo o que ladra.
+1	Os	o	DET	DET	_	2	det	_	_
+2	cães	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguem	perseguir	VERB	VERB	_	0	root	_	_
+4	tudo	tudo	PRON	PRON	_	3	obj	_	_
+5	o	ele	PRON	PRON	_	4	fixed	_	_
+6	que	que	PRON	PRON	_	7	obj	_	_
+7	ladra	ladrar	VERB	VERB	_	5	acl	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 56 # O cão ladrou todos os dias.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	todos	todo	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
+6	dias	dia	NOUN	NOUN	_	3	obj	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 57 # Quando é que o cão ladrou?
+1	Quando	Quando	ADP	ADP	_	6	mark	_	_
+2	é	ser	AUX	AUX	_	6	aux	_	_
+3	que	que	SCONJ	SCONJ	_	6	mark	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	cão	cão	NOUN	NOUN	_	6	nsubj	_	_
+6	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+7	?	?	PUNCT	PUNCT	_	6	punct	_	_
+
+# 58 # Três dos cães ladram.
+1	Três	Três	NUM	NUM	_	3	nummod	_	_
+2	dos	do	ADP	ADP	_	3	case	_	_
+3	cães	cão	NOUN	NOUN	_	4	nsubj	_	_
+4	ladram	ladrar	VERB	VERB	_	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 59 # Três ladram.
+1	Três	Três	NUM	NUM	_	2	nummod	_	_
+2	ladram	ladrar	VERB	VERB	_	0	root	_	_
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# 60 # O cão do Bobi ladra.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	0	other	_	_
+3	do	do	ADP	ADP	_	4	case	_	_
+4	Bobi	Bobi	PROPN	PROPN	_	2	nmod	_	_
+5	ladra	ladro	ADJ	ADJ	_	4	amod	_	_
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# 61 # O do Bobi ladra.
+1	O	o	DET	DET	_	3	det	_	_
+2	do	do	ADP	ADP	_	3	case	_	_
+3	Bobi	Bobi	PROPN	PROPN	_	0	root	_	_
+4	ladra	ladro	ADJ	ADJ	_	3	amod	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 62 # Ladram vinte e três cães.
+1	Ladram	ladrar	VERB	VERB	_	0	root	_	_
+2	vinte	vinte	NUM	NUM	_	1	obl	_	_
+3	e	e	CCONJ	CCONJ	_	5	cc	_	_
+4	três	três	NUM	NUM	_	5	nummod	_	_
+5	cães	cão	NOUN	NOUN	_	2	conj	_	_
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 63 # Ladram duzentos e vinte cães.
+1	Ladram	ladrar	VERB	VERB	_	0	root	_	_
+2	duzentos	duzentos	NUM	NUM	_	1	obl	_	_
+3	e	e	CCONJ	CCONJ	_	5	cc	_	_
+4	vinte	vinte	NUM	NUM	_	5	nummod	_	_
+5	cães	cão	NOUN	NOUN	_	2	conj	_	_
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 64 # O Atlas chegou de carro.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	chegou	chegar	VERB	VERB	_	0	root	Y	come.01	_
+4	de	de	ADP	ADP	_	5	case	_	_	_
+5	carro	carro	NOUN	NOUN	_	3	obl	_	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 65 # O Atlas não parou de ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	4	nsubj	_	_	A0
+3	não	não	ADV	ADV	_	4	advmod	_	_	AM-ADV
+4	parou	parar	VERB	VERB	_	0	root	Y	stop.01	_
+5	de	de	ADP	ADP	_	6	case	_	_	_
+6	ladrar	ladrar	VERB	VERB	_	4	xcomp	_	_	A1
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
+
+# 66 # O Bobi enfiou o gato à força.
+1	O	o	DET	DET	_	2	det	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_
+3	enfiou	enfiar	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	gato	gato	NOUN	NOUN	_	3	obj	_	_
+6	à	ao	ADP	ADP	_	7	case	_	_
+7	força	força	NOUN	NOUN	_	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 67 # O Bobi enfiou o gato à força.
+1	O	o	DET	DET	_	2	det	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_
+3	enfiou	enfiar	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	gato	gato	NOUN	NOUN	_	3	obj	_	_
+6	à	ao	ADP	ADP	_	7	case	_	_
+7	força	força	NOUN	NOUN	_	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 68 # A foto do Atlas chegou.
+1	A	o	DET	DET	_	2	det	_	_	_
+2	foto	foto	NOUN	NOUN	_	5	nsubj	_	_	A1
+3	do	do	ADP	ADP	_	4	case	_	_	_
+4	Atlas	atlas	PROPN	PROPN	_	2	nmod	_	_	_
+5	chegou	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
+
+# 69 # O Atlas limpou a mesa completamente.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	limpou	limpar	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	_	5	det	_	_
+5	mesa	mesa	NOUN	NOUN	_	3	obj	_	_
+6	completamente	completamente	ADV	ADV	_	5	advmod	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 70 # O Atlas pôs o Bobi no jardim.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	pôs	pôr	VERB	VERB	_	0	root	Y	put.01	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obj	_	_	_
+6	no	no	ADJ	ADJ	_	5	amod	_	_	_
+7	jardim	jardim	NOUN	NOUN	_	5	appos	_	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 71 # O cão vai ladrar se o Bobi chegar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	4	nsubj	_	_	_
+3	vai	ir	AUX	AUX	_	4	aux	_	_	_
+4	ladrar	ladrar	VERB	VERB	_	0	root	_	_	_
+5	se	se	ADP	ADP	_	8	mark	_	_	_
+6	o	o	DET	DET	_	7	det	_	_	_
+7	Bobi	Bobi	PROPN	PROPN	_	8	nsubj	_	_	A1
+8	chegar	chegar	VERB	VERB	_	4	advcl	Y	arrive.01	_
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
+
+# 72 # O Atlas e o Bobi chegaram.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	6	nsubj	_	_	_
+3	e	e	CCONJ	CCONJ	_	6	cc	_	_	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	6	nsubj	_	_	A1
+6	chegaram	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
+
+# 73 # O Atlas, o Bobi e o cão chegaram.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	9	nsubj	_	_	A1
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	2	appos	_	_	_
+6	e	e	CCONJ	CCONJ	_	8	cc	_	_	_
+7	o	o	DET	DET	_	8	det	_	_	_
+8	cão	cão	NOUN	NOUN	_	5	conj	_	_	_
+9	chegaram	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_	_
+
+# 74 # O cão chegou e ladrou.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	chegou	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+4	e	e	CCONJ	CCONJ	_	5	cc	_	_	_
+5	ladrou	ladrar	VERB	VERB	_	3	conj	_	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 75 # O cão chegou, e o Bobi ladrou.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	chegou	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
+5	e	e	CCONJ	CCONJ	_	7	cc	_	_	_
+6	o	o	DET	DET	_	7	det	_	_	_
+7	Bobi	Bobi	PROPN	PROPN	_	8	nsubj	_	_	_
+8	ladrou	ladrar	VERB	VERB	_	3	dep	_	_	_
+9	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
+
+# 76 # O cão ladrou, não ladrou?
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	não	não	ADV	ADV	_	6	advmod	_	_
+6	ladrou	ladrar	VERB	VERB	_	3	dep	_	_
+7	?	?	PUNCT	PUNCT	_	6	punct	_	_
+
+# 77 # É óbvio que o cão ladrou.
+1	É	ser	AUX	AUX	_	2	cop	_	_
+2	óbvio	óbvio	ADJ	ADJ	_	0	root	_	_
+3	que	que	SCONJ	SCONJ	_	6	mark	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	cão	cão	NOUN	NOUN	_	6	nsubj	_	_
+6	ladrou	ladrar	VERB	VERB	_	2	advcl	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# 78 # O Atlas prometeu ao Bobi ladrar.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	prometeu	prometer	VERB	VERB	_	0	root	_	_
+4	ao	ao	ADP	ADP	_	5	case	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obl	_	_
+6	ladrar	ladrar	VERB	VERB	_	5	acl	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 79 # O Atlas parece ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	parece	parecer	VERB	VERB	_	0	root	Y	seem.01	_
+4	ladrar	ladrar	VERB	VERB	_	3	xcomp	_	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 80 # O Atlas acredita que o Bobi está a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0	_
+3	acredita	acreditar	VERB	VERB	_	0	root	Y	believe.01	_	_
+4	que	que	SCONJ	SCONJ	_	7	mark	_	_	_	_
+5	o	o	DET	DET	_	6	det	_	_	_	_
+6	Bobi	Bobi	PROPN	PROPN	_	7	nsubj	_	_	_	A1
+7	está	estar	VERB	VERB	_	3	ccomp	Y	be.01	A1	_
+8	a	a	ADP	ADP	_	9	case	_	_	_	_
+9	ladrar	ladrar	VERB	VERB	_	7	xcomp	_	_	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_	_
+
+# 81 # O Bobi ter ladrado incomodou o Atlas.
+1	O	o	DET	DET	_	2	det	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	4	nsubj	_	_
+3	ter	ter	VERB	VERB	_	4	aux	_	_
+4	ladrado	ladrar	VERB	VERB	_	0	root	_	_
+5	incomodou	incomodar	VERB	VERB	_	4	xcomp	_	_
+6	o	o	DET	DET	_	7	det	_	_
+7	Atlas	atlas	PROPN	PROPN	_	5	obj	_	_
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 82 # O Atlas levou dez minutos a chegar.
+1	O	o	DET	DET	_	2	det	_	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0	_
+3	levou	levar	VERB	VERB	_	0	root	Y	take.01	_	_
+4	dez	dez	NUM	NUM	_	5	nummod	_	_	_	_
+5	minutos	minuto	NOUN	NOUN	_	3	obj	_	_	_	_
+6	a	a	ADP	ADP	_	7	case	_	_	_	_
+7	chegar	chegar	VERB	VERB	_	5	xcomp	Y	arrive.01	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_	_
+
+# 83 # O Atlas deixou o ladrar para o Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	deixou	deixar	VERB	VERB	_	0	root	_	_
+4	o	ele	PRON	PRON	_	5	nsubj	_	_
+5	ladrar	ladrar	VERB	VERB	_	3	obj	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
+8	Bobi	Bobi	PROPN	PROPN	_	5	obl	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 84 # O Atlas parece velho ao Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	parece	parecer	VERB	VERB	_	0	root	_	_
+4	velho	velho	NOUN	NOUN	_	3	obj	_	_
+5	ao	ao	ADP	ADP	_	6	case	_	_
+6	Bobi	Bobi	PROPN	PROPN	_	4	nmod	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 85 # O Bobi considera o Atlas velho.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_	AM-TMP
+3	considera	considerar	VERB	VERB	_	0	root	Y	consider.01	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Atlas	atlas	NOUN	NOUN	_	3	obj	_	_	_
+6	velho	velho	ADJ	ADJ	_	5	amod	_	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 86 # O Atlas gostou da ideia de que o Bobi conseguia ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0	_
+3	gostou	gostar	VERB	VERB	_	0	root	Y	like.02	_	_
+4	da	do	ADP	ADP	_	5	case	_	_	_	_
+5	ideia	ideia	NOUN	NOUN	_	3	obl	_	_	_	_
+6	de	de	ADP	ADP	_	7	case	_	_	_	_
+7	que	que	SCONJ	SCONJ	_	5	nmod	_	_	_	_
+8	o	o	DET	DET	_	9	det	_	_	_	_
+9	Bobi	Bobi	PROPN	PROPN	_	10	nsubj	_	_	_	A0
+10	conseguia	conseguir	VERB	VERB	_	3	conj	Y	manage.02	_	_
+11	ladrar	ladrar	VERB	VERB	_	10	xcomp	_	_	_	A1
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_	_	_
+
+# 87 # O Atlas ladrou das dez às três.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	das	do	ADP	ADP	_	5	case	_	_
+5	dez	dez	NUM	NUM	_	3	obl	_	_
+6	às	ao	ADP	ADP	_	7	case	_	_
+7	três	três	NUM	NUM	_	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	7	nmod	_	_
+
+# 88 # O Atlas era muito velho.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	5	nsubj	_	_
+3	era	ser	AUX	AUX	_	5	cop	_	_
+4	muito	muito	ADV	ADV	_	5	advmod	_	_
+5	velho	velho	ADJ	ADJ	_	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# 89 # Quase todos os cães ladraram.
+1	Quase	quase	ADV	ADV	_	2	advmod	_	_
+2	todos	todo	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	cães	cão	NOUN	NOUN	_	5	nsubj	_	_
+5	ladraram	ladrar	VERB	VERB	_	0	root	_	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# 90 # O Atlas ladrou muito baixinho.
+1	O	o	DET	DET	_	2	det	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_
+3	ladrou	ladrar	VERB	VERB	_	0	root	_	_
+4	muito	muito	ADV	ADV	_	5	advmod	_	_
+5	baixinho	baixinho	ADV	ADV	_	3	advmod	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 91 # O Bobi perseguir gatos incomodou o Atlas.
+1	O	o	DET	DET	_	2	det	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_
+3	perseguir	perseguir	VERB	VERB	_	0	root	_	_
+4	gatos	gato	NOUN	NOUN	_	3	obj	_	_
+5	incomodou	incomodar	VERB	VERB	_	4	acl	_	_
+6	o	o	DET	DET	_	7	det	_	_
+7	Atlas	atlas	PROPN	PROPN	_	5	obj	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 92 # O Atlas ter perseguido gatos incomodou o Bobi.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	ter	ter	VERB	VERB	_	0	root	Y	have.03	_
+4	perseguido	perseguir	VERB	VERB	_	3	advcl	_	_	AM-TMP
+5	gatos	gato	NOUN	NOUN	_	4	obj	_	_	_
+6	incomodou	incomodar	VERB	VERB	_	5	acl	_	_	_
+7	o	o	DET	DET	_	8	det	_	_	_
+8	Bobi	Bobi	PROPN	PROPN	_	6	obj	_	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 93 # O três de junho chegou.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	três	três	NUM	NUM	_	5	nsubj	_	_	A1
+3	de	de	ADP	ADP	_	4	case	_	_	_
+4	junho	junho	NOUN	NOUN	_	2	nmod	_	_	_
+5	chegou	chegar	VERB	VERB	_	0	root	Y	arrive.01	_
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
+
+# 94 # O Atlas chegou às três e vinte.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	chegou	chegar	VERB	VERB	_	0	root	Y	come.01	_
+4	às	ao	ADP	ADP	_	5	case	_	_	_
+5	três	três	NUM	NUM	_	3	obl	_	_	_
+6	e	e	CCONJ	CCONJ	_	7	cc	_	_	_
+7	vinte	vinte	NUM	NUM	_	5	conj	_	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 95 # O Bobi chegou na terça-feira de manhã.
+1	O	o	DET	DET	_	2	det	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_
+3	chegou	chegar	VERB	VERB	_	0	root	_	_
+4	na	na	DET	DET	_	5	det	_	_
+5	terça-feira	terça-feira	NOUN	NOUN	_	3	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	manhã	manhã	NOUN	NOUN	_	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 96 # Os gatos arranjaram uma forma de ladrar.
+1	Os	o	DET	DET	_	2	det	_	_
+2	gatos	gato	NOUN	NOUN	_	3	nsubj	_	_
+3	arranjaram	arranjar	VERB	VERB	_	0	root	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	forma	forma	NOUN	NOUN	_	3	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	ladrar	ladrar	VERB	VERB	_	5	xcomp	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 97 # O cão mais feliz perseguiu o Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	5	nsubj	_	_
+3	mais	mais	ADV	ADV	_	4	advmod	_	_
+4	feliz	feliz	ADJ	ADJ	_	2	amod	_	_
+5	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+6	o	o	DET	DET	_	7	det	_	_
+7	Bobi	Bobi	PROPN	PROPN	_	5	obj	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# 98 # Havia gatos no jardim.
+1	Havia	haver	VERB	VERB	_	0	root	_	_
+2	gatos	gato	NOUN	NOUN	_	1	obj	_	_
+3	no	no	ADJ	ADJ	_	2	amod	_	_
+4	jardim	jardim	NOUN	NOUN	_	2	conj	_	_
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# 99 # Aquele cão perseguiu o Bobi.
+1	Aquele	aquele	PRON	PRON	_	2	det	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_
+3	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	Bobi	Bobi	PROPN	PROPN	_	3	obj	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# 100 # Alguém perseguiu o Atlas.
+1	Alguém	alguém	PRON	PRON	_	2	nsubj	_	_
+2	perseguiu	perseguir	VERB	VERB	_	0	root	_	_
+3	o	o	DET	DET	_	4	det	_	_
+4	Atlas	atlas	PROPN	PROPN	_	2	obj	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# 101 # Quão feliz estava o Atlas?
+1	Quão	quão	ADV	ADV	_	2	advmod	_	_	_
+2	feliz	feliz	ADJ	ADJ	_	0	root	_	_	_
+3	estava	estar	VERB	VERB	_	2	csubj	Y	be.01	_
+4	o	o	DET	DET	_	5	det	_	_	_
+5	Atlas	atlas	PROPN	PROPN	_	3	nsubj	_	_	A1
+6	?	?	PUNCT	PUNCT	_	2	punct	_	_	_
+
+# 102 # O número cinco incomoda o Bobi.
+1	O	o	DET	DET	_	2	det	_	_
+2	número	número	NOUN	NOUN	_	4	nsubj	_	_
+3	cinco	cinco	NUM	NUM	_	2	appos	_	_
+4	incomoda	incomodar	VERB	VERB	_	0	root	_	_
+5	o	o	DET	DET	_	6	det	_	_
+6	Bobi	Bobi	PROPN	PROPN	_	4	obj	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# 103 # O Atlas conseguiu.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Atlas	atlas	NOUN	NOUN	_	3	nsubj	_	_	A0
+3	conseguiu	conseguir	VERB	VERB	_	0	root	Y	manage.02	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 104 # O Bobi tentou.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	Bobi	Bobi	PROPN	PROPN	_	3	nsubj	_	_	A0
+3	tentou	tentar	VERB	VERB	_	0	root	Y	try.01	_
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
+# 105 # Não ladres!
+1	Não	não	ADV	ADV	_	2	advmod	_	_
+2	ladres	ladrar	VERB	VERB	_	0	root	_	_
+3	!	!	PUNCT	PUNCT	_	2	punct	_	_
+
+# 106 # O cão chegou a ladrar.
+1	O	o	DET	DET	_	2	det	_	_	_
+2	cão	cão	NOUN	NOUN	_	3	nsubj	_	_	A1
+3	chegou	chegar	VERB	VERB	_	0	root	Y	come.01	_
+4	a	a	ADP	ADP	_	5	case	_	_	_
+5	ladrar	ladrar	VERB	VERB	_	3	xcomp	_	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
+
