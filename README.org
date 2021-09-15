@@ -82,8 +82,3 @@ Some of these sentences were copied to
 
 https://tatoeba.org/eng/sentences_lists/show/166576
 
-* links
-
-http://annotations.sl.cloud9.ibm.com:8080/AnnotationsUI/ (actionAPI3 stable)
-http://dropbear.sl.cloud9.ibm.com:8080/AnnotationsUI/ (actionAPI3 last release)
-
