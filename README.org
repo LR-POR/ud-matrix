@@ -1,21 +1,15 @@
-#+title: Some experiments with UD vs HPSG
+#+title: Some experiments with UD vs ERG
 
 * the data
 
-Sententences came from
+  To profiles from [[https://github.com/delph-in/docs/wiki/ErgTop][ERG]] where used:
 
-** Matrix
+Matrix
 
-- http://moin.delph-in.net/MatrixMrsTestSuiteEn
-- http://moin.delph-in.net/MatrixMrsTestSuitePt
+- https://github.com/delph-in/docs/wiki/MatrixMrsTestSuite
+- http://svn.delph-in.net/erg/trunk/tsdb/gold/mrs/
 
-** MRS
-
-http://svn.delph-in.net/erg/trunk/tsdb/gold/mrs/
-
-(file item.gz). This directory contains 'profiles' with golden
-HPSG/ERG analysis. MRS sentences are almost identical to the MATRIX
-with 7 differences:
+MRS sentences are almost identical to the MATRIX with 7 differences:
 
 #+BEGIN_EXAMPLE
 % diff matrix-en.sent mrs-en.sent
@@ -56,9 +50,6 @@ with 7 differences:
 ** CSLI
 
 http://svn.delph-in.net/erg/trunk/tsdb/gold/csli/
-
-(file item.gz). This directory contains 'profiles' with golden
-HPSG/ERG analysis.
 
 The CSLI dataset https://w3.ual.es/~nperdu/hpsuite.htm (where the
 sentences are grouped by syntatic constructions). This page is
