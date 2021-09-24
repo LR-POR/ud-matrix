@@ -1048,11 +1048,10 @@
 3	!	!	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 107
-# text = O cão chegou a ladrar.
+# text = O cão chegou latindo.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cão	cão	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	chegou	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	a	a	SCONJ	_	_	5	mark	_	_
-5	ladrar	ladrar	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+4	latindo	latir	VERB	_	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 

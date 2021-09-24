@@ -912,6 +912,6 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	barking	barking	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+4	barking	bark	VERB	_	VerbForm=Ger	3	advcl	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
