@@ -1,8 +1,69 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
+# porgram = que-subj-verb-lex
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e5c956695e&clustering=GOV.lemma
 # sent_id = 1
+# text = o gato queria que o cachorro dormisse.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	queria	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	dormisse	dormissar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = o artista exigiu que o cachorro não perseguisse o gato.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	artista	artista	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	exigiu	exigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+8	perseguisse	perseguir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gato	gato	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.6-200830
+# porgram = X-que-subj-verb-lex
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e5c172e8a7&clustering=GOV.lemma
+# sent_id = 1
+# text = o gato fez com que os cachorros ladrassem.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gato	gato	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	com	com	SCONJ	_	_	8	mark	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cachorros	cachorro	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	ladrassem	ladrar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = o cliente insistiu em que os artistas vendessem o cachorro.
+1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cliente	cliente	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	insistiu	insistir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	SCONJ	_	_	8	mark	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	artistas	artista	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	vendessem	vender	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cachorro	cachorro	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = refl-gen-obj
 # evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=614e3f0f24f8b&clustering=V.lemma
+# sent_id = 1
 # text = o artista queixou-se do cachorro
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	artista	artista	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
