@@ -1,7 +1,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = question-verb-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=61507b989b5a4&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615867fe334ba&clustering=GOV.lemma, 
 # sent_id = 11
 # text = o artista perguntou que ratazanas os cachorros perseguiram.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -55,7 +55,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = que-subj-verb-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e647d06b98&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615869919f3f9&clustering=GOV.lemma
 # sent_id = 21
 # text = o gato queria que o cachorro dormisse.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -118,7 +118,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = bare-inf-aux-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e755630881&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=61586a91cff16&clustering=GOV.lemma
 # sent_id = 41
 # text = o gato queria dormir.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -141,7 +141,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = ter-aux-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e788413fce&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=61586c2d94fc7&clustering=GOV.lemma
 # sent_id = 51
 # text = o cachorro tem andado.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -154,7 +154,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = ind-cl
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=614e88a2edb9e&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=61586cba269e1&clustering=GOV.lemma
 # sent_id = 61
 # text = o cachorro declarou que o gato corre.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
