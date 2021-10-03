@@ -202,7 +202,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = refl-gen-obj
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=61507749a7d45&clustering=V.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=6158888e024b5&clustering=V.lemma
 # sent_id = 91
 # text = o artista queixou-se do cachorro
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -219,7 +219,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = nom-acc-dat-ditransitive-verb-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=61505c326f215&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=6159f62cc6371&clustering=GOV.lemma
 # sent_id = 101
 # text = o artista doou uma bicicleta ao estudante.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -237,7 +237,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = ind-cl-dat-verb-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@2.8&custom=61506fccdf034&clustering=GOV.lemma
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=6159f8cc20c44&clustering=GOV.lemma
 # sent_id = 111
 # text = o artista contou ao estudante que o gato tinha matado uma ratazana.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
