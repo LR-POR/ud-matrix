@@ -1,7 +1,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = question-verb-lex
-# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615867fe334ba&clustering=GOV.lemma, 
+# evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615867fe334ba&clustering=GOV.lemma
 # sent_id = 11
 # text = o artista perguntou que ratazanas os cachorros perseguiram.
 1	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
