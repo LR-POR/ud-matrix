@@ -1,7 +1,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = question-verb-lex
-# valences = <nsubj,VERB,ccomp> <obj,nsubj,VERB>
+# valences = <nsubj:NOUN,VERB:perguntar+Ind+Sing+3+Past+Fin,ccomp:VERB+perseguir+Ind+Plur+3+Fin> <obj:NOUN,nsubj:NOUN,VERB:perseguir+Ind+Plur+3+Fin>
 # evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615867fe334ba&clustering=GOV.lemma
 # sent_id = 11
 # text = o artista perguntou que ratazanas os cachorros perseguiram.
