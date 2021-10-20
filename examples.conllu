@@ -1,6 +1,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = question-verb-lex
+# valences = <nsubj,VERB,ccomp> <obj,nsubj,VERB>
 # evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=615867fe334ba&clustering=GOV.lemma
 # sent_id = 11
 # text = o artista perguntou que ratazanas os cachorros perseguiram.
@@ -154,6 +155,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.6-200830
 # porgram = ind-cl
+# valences = <nsubj,VERB,ccomp:que:Pres+Fin> <nsubj,VERB>
 # evidences = http://match.grew.fr/?corpus=UD_Portuguese-Bosque@dev&custom=61586cba269e1&clustering=GOV.lemma
 # sent_id = 61
 # text = o cachorro declarou que o gato corre.
